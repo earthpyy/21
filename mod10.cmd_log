@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3 -w -refsym mod10 C:/Users/Earth/Documents/ei/Blackjack/mod10.sch C:/Users/Earth/Documents/ei/Blackjack/mod10.sym 

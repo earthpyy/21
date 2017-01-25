@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="CLK" Dir="IN"/>
+		<Port Id="SW" Dir="IN"/>
+		<Port Id="XLXN_7" Dir="OUT"/>
+		<Port Id="XLXN_8" Dir="OUT"/>
+		<Port Id="XLXN_9" Dir="OUT"/>
+		<Port Id="XLXN_10" Dir="OUT"/>
+		<Port Id="XLXN_11" Dir="OUT"/>
+		<Port Id="XLXN_12" Dir="OUT"/>
+		<Port Id="XLXN_13" Dir="OUT"/>
+		<Port Id="XLXN_14" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

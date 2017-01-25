@@ -1,0 +1,3 @@
+select figure at 76 77 8 -wires -sn=1
+select figure at 39 729 8 -wires -sn=1
+select figure at 26 76 8 -wires -sn=1

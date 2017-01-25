@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="initRandom">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-12-5T22:56:17</timestamp>
+    <pin polarity="Input" x="0" y="-1504" name="CLK" />
+    <pin polarity="Output" x="384" y="-1504" name="Q1_0" />
+    <pin polarity="Output" x="384" y="-1440" name="Q1_1" />
+    <pin polarity="Output" x="384" y="-1376" name="Q1_2" />
+    <pin polarity="Output" x="384" y="-1312" name="Q1_3" />
+    <pin polarity="Output" x="384" y="-1248" name="Q2_0" />
+    <pin polarity="Output" x="384" y="-1184" name="Q2_1" />
+    <pin polarity="Output" x="384" y="-1120" name="Q2_2" />
+    <pin polarity="Output" x="384" y="-1056" name="Q2_3" />
+    <pin polarity="Output" x="384" y="-992" name="Q3_0" />
+    <pin polarity="Output" x="384" y="-928" name="Q3_1" />
+    <pin polarity="Output" x="384" y="-864" name="Q3_2" />
+    <pin polarity="Output" x="384" y="-800" name="Q3_3" />
+    <pin polarity="Output" x="384" y="-736" name="Q6_0" />
+    <pin polarity="Output" x="384" y="-672" name="Q6_1" />
+    <pin polarity="Output" x="384" y="-608" name="Q6_2" />
+    <pin polarity="Output" x="384" y="-544" name="Q6_3" />
+    <pin polarity="Output" x="384" y="-480" name="Q5_0" />
+    <pin polarity="Output" x="384" y="-416" name="Q5_1" />
+    <pin polarity="Output" x="384" y="-352" name="Q5_2" />
+    <pin polarity="Output" x="384" y="-288" name="Q5_3" />
+    <pin polarity="Output" x="384" y="-224" name="Q4_0" />
+    <pin polarity="Output" x="384" y="-160" name="Q4_1" />
+    <pin polarity="Output" x="384" y="-96" name="Q4_2" />
+    <pin polarity="Output" x="384" y="-32" name="Q4_3" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-1544" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1504" type="pin CLK" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1504" type="pin Q1_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1440" type="pin Q1_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1376" type="pin Q1_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1312" type="pin Q1_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1248" type="pin Q2_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1184" type="pin Q2_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1120" type="pin Q2_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1056" type="pin Q2_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-992" type="pin Q3_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-928" type="pin Q3_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-864" type="pin Q3_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-800" type="pin Q3_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-736" type="pin Q6_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-672" type="pin Q6_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-608" type="pin Q6_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-544" type="pin Q6_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin Q5_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-416" type="pin Q5_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin Q5_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin Q5_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin Q4_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-160" type="pin Q4_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-96" type="pin Q4_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin Q4_3" />
+        <rect width="256" x="64" y="-1536" height="1536" />
+        <line x2="0" y1="-1504" y2="-1504" x1="64" />
+        <line x2="384" y1="-1504" y2="-1504" x1="320" />
+        <line x2="384" y1="-1440" y2="-1440" x1="320" />
+        <line x2="384" y1="-1376" y2="-1376" x1="320" />
+        <line x2="384" y1="-1312" y2="-1312" x1="320" />
+        <line x2="384" y1="-1248" y2="-1248" x1="320" />
+        <line x2="384" y1="-1184" y2="-1184" x1="320" />
+        <line x2="384" y1="-1120" y2="-1120" x1="320" />
+        <line x2="384" y1="-1056" y2="-1056" x1="320" />
+        <line x2="384" y1="-992" y2="-992" x1="320" />
+        <line x2="384" y1="-928" y2="-928" x1="320" />
+        <line x2="384" y1="-864" y2="-864" x1="320" />
+        <line x2="384" y1="-800" y2="-800" x1="320" />
+        <line x2="384" y1="-736" y2="-736" x1="320" />
+        <line x2="384" y1="-672" y2="-672" x1="320" />
+        <line x2="384" y1="-608" y2="-608" x1="320" />
+        <line x2="384" y1="-544" y2="-544" x1="320" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <line x2="384" y1="-160" y2="-160" x1="320" />
+        <line x2="384" y1="-96" y2="-96" x1="320" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+    </graph>
+</symbol>

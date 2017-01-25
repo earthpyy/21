@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3 -refsym CardTo7 C:/Users/Earth/Documents/ei/Blackjack/CardTo7.sch C:/Users/Earth/Documents/ei/Blackjack/CardTo7.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym CardTo7 C:/Users/Earth/Documents/ei/Blackjack/CardTo7.sch C:/Users/Earth/Documents/ei/Blackjack/CardTo7.sym 

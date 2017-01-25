@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3 -w -refsym mod5cnt C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.sch C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym mod5cnt C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.sch C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym mod5cnt C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.sch C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.sym 

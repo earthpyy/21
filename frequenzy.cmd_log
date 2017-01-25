@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3 -refsym frequenzy C:/Users/Earth/Documents/ei/Blackjack/freq/frequenzy.sch C:/Users/Earth/Documents/ei/Blackjack/frequenzy.sym 
+sch2sym -intstyle ise -family spartan3 -refsym frequenzy C:/Users/Earth/Documents/ei/Blackjack/freq/frequenzy.sch C:/Users/Earth/Documents/ei/Blackjack/frequenzy.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym frequenzy C:/Users/Earth/Documents/ei/Blackjack/freq/frequenzy.sch C:/Users/Earth/Documents/ei/Blackjack/frequenzy.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym frequenzy C:/Users/Earth/Documents/ei/Blackjack/freq/frequenzy.sch C:/Users/Earth/Documents/ei/Blackjack/frequenzy.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym frequenzy C:/Users/Earth/Documents/ei/Blackjack/freq/frequenzy.sch C:/Users/Earth/Documents/ei/Blackjack/frequenzy.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym frequenzy C:/Users/Earth/Documents/ei/Blackjack/freq/frequenzy.sch C:/Users/Earth/Documents/ei/Blackjack/frequenzy.sym 

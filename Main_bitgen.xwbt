@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Earth\Documents\ei\Blackjack\Main.ncd
+OUTFILE=C:\Users\Earth\Documents\ei\Blackjack\Main.bit
+FAMILY=Spartan3
+PART=xc3s400-4tq144
+WORKINGDIR=C:\Users\Earth\Documents\ei\Blackjack
+LICENSE=WebPack
+USER_INFO=211257583_0_0_571

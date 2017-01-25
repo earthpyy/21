@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Dec 04 03:31:08 2016
+# Process ID: 7376
+# Log file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Earth/Documents/ei/Blackjack/pa.fromHdl.tcl
+# create_project -name Blackjack -dir "C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_4" -part xc3s400tq144-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Earth/Documents/ei/Blackjack/Main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {oneto13cnt.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {frequenzy.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CardTo7.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Main.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Main $srcset
+# add_files [list {Main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s400tq144-4
+Using Verific elaboration
+Parsing VHDL file "E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" into library work
+Parsing VHDL file "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'FMAP' instantiated as 'I_36_93' [C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf:87]
+Resolution: File names need to match cell names: an EDIF definition will be found in FMAP.edf; an HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Designutils 20-910] Reading macro library E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/ClockRegion.xml
+Loading clock buffers from E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/ClockBuffers.xml
+Loading package from E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/tq144/Package.xml
+Loading io standards from E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/tq144/SSORules.xml
+Loading list of drcs for the architecture : E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+INFO: [Timing 38-34] Done reading timing library E:/Softwares/XILINX/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+Parsing UCF File [C:/Users/Earth/Documents/ei/Blackjack/Main.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'XLXN_19' [C:/Users/Earth/Documents/ei/Blackjack/Main.ucf:19]
+Finished Parsing UCF File [C:/Users/Earth/Documents/ei/Blackjack/Main.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 0f615e6a
+open_rtl_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 430.457 ; gain = 46.211
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P127 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports SW]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Earth/Documents/ei/Blackjack\planAhead_pid7376.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Dec 04 03:32:19 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3 -w -refsym BCD_7SEG C:/Users/Earth/Documents/ei/Blackjack/bcdto7/BCD_7SEG.sch C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.sym 

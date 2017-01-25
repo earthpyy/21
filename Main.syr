@@ -1,0 +1,2440 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Main"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-tq144
+
+---- Source Options
+Top Module Name                    : Main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf" in Library work.
+Architecture behavioral of Entity or6_mxilinx_bcd_7seg is up to date.
+Architecture behavioral of Entity or8_mxilinx_bcd_7seg is up to date.
+Architecture behavioral of Entity or7_mxilinx_bcd_7seg is up to date.
+Architecture behavioral of Entity or9_mxilinx_bcd_7seg is up to date.
+Architecture behavioral of Entity bcd_7seg is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" in Library work.
+Architecture behavioral of Entity and6_mxilinx_frequenzy is up to date.
+Architecture behavioral of Entity cd4ce_mxilinx_frequenzy is up to date.
+Architecture behavioral of Entity ftrse_mxilinx_frequenzy is up to date.
+Architecture behavioral of Entity cb8re_mxilinx_frequenzy is up to date.
+Architecture behavioral of Entity ftce_mxilinx_frequenzy is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_frequenzy is up to date.
+Architecture behavioral of Entity frequenzy is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" in Library work.
+Entity <add4_mxilinx_main> compiled.
+Entity <add4_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <m2_1_mxilinx_main> compiled.
+Entity <m2_1_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <ftclex_mxilinx_main> compiled.
+Entity <ftclex_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <cb4cle_mxilinx_main> compiled.
+Entity <cb4cle_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <ftce_mxilinx_main> compiled.
+Entity <ftce_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <cb4ce_mxilinx_main> compiled.
+Entity <cb4ce_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <d2_4e_mxilinx_main> compiled.
+Entity <d2_4e_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <cb2ce_mxilinx_main> compiled.
+Entity <cb2ce_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <m2_1e_mxilinx_main> compiled.
+Entity <m2_1e_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <m4_1e_mxilinx_main> compiled.
+Entity <m4_1e_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <score_muser_main> compiled.
+Entity <score_muser_main> (Architecture <behavioral>) compiled.
+Entity <debounce_muser_main> compiled.
+Entity <debounce_muser_main> (Architecture <behavioral>) compiled.
+Entity <compm8_mxilinx_main> compiled.
+Entity <compm8_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <mod3cnt_muser_main> compiled.
+Entity <mod3cnt_muser_main> (Architecture <behavioral>) compiled.
+Entity <turncount_muser_main> compiled.
+Entity <turncount_muser_main> (Architecture <behavioral>) compiled.
+Entity <cardto7_muser_main> compiled.
+Entity <cardto7_muser_main> (Architecture <behavioral>) compiled.
+Entity <d3_8e_mxilinx_main> compiled.
+Entity <d3_8e_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <sevensegdriver_muser_main> compiled.
+Entity <sevensegdriver_muser_main> (Architecture <behavioral>) compiled.
+Entity <compm4_mxilinx_main> compiled.
+Entity <compm4_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <adsu4_mxilinx_main> compiled.
+Entity <adsu4_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <mod10_muser_main> compiled.
+Entity <mod10_muser_main> (Architecture <behavioral>) compiled.
+Entity <sr4cle_mxilinx_main> compiled.
+Entity <sr4cle_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <m8_1e_mxilinx_main> compiled.
+Entity <m8_1e_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <playercard_muser_main> compiled.
+Entity <playercard_muser_main> (Architecture <behavioral>) compiled.
+Entity <initrandom_muser_main> compiled.
+Entity <initrandom_muser_main> (Architecture <behavioral>) compiled.
+Entity <oneto13cnt_muser_main> compiled.
+Entity <oneto13cnt_muser_main> (Architecture <behavioral>) compiled.
+Entity <main> compiled.
+Entity <main> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/CardTo7.vhf" in Library work.
+Architecture behavioral of Entity cardto7 is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/debounce.vhf" in Library work.
+Architecture behavioral of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf" in Library work.
+Architecture behavioral of Entity add4_mxilinx_initrandom is up to date.
+Architecture behavioral of Entity ftce_mxilinx_initrandom is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_initrandom is up to date.
+Architecture behavioral of Entity initrandom is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf" in Library work.
+Architecture behavioral of Entity ftce_mxilinx_mod3cnt is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_mod3cnt is up to date.
+Architecture behavioral of Entity d2_4e_mxilinx_mod3cnt is up to date.
+Architecture behavioral of Entity mod3cnt is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf" in Library work.
+Architecture behavioral of Entity add4_mxilinx_oneto13cnt is up to date.
+Architecture behavioral of Entity ftce_mxilinx_oneto13cnt is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_oneto13cnt is up to date.
+Architecture behavioral of Entity oneto13cnt is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf" in Library work.
+Entity <m2_1_mxilinx_playercard> compiled.
+Entity <m2_1_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <compm4_mxilinx_playercard> compiled.
+Entity <compm4_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <add4_mxilinx_playercard> compiled.
+Entity <add4_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <adsu4_mxilinx_playercard> compiled.
+Entity <adsu4_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <mod10_muser_playercard> compiled.
+Entity <mod10_muser_playercard> (Architecture <behavioral>) compiled.
+Entity <compm8_mxilinx_playercard> compiled.
+Entity <compm8_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <sr4cle_mxilinx_playercard> compiled.
+Entity <sr4cle_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <m2_1e_mxilinx_playercard> compiled.
+Entity <m2_1e_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <m8_1e_mxilinx_playercard> compiled.
+Entity <m8_1e_mxilinx_playercard> (Architecture <behavioral>) compiled.
+Entity <playercard> compiled.
+Entity <playercard> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/score.vhf" in Library work.
+Architecture behavioral of Entity add4_mxilinx_score is up to date.
+Architecture behavioral of Entity m2_1_mxilinx_score is up to date.
+Architecture behavioral of Entity ftclex_mxilinx_score is up to date.
+Architecture behavioral of Entity cb4cle_mxilinx_score is up to date.
+Architecture behavioral of Entity ftce_mxilinx_score is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_score is up to date.
+Architecture behavioral of Entity d2_4e_mxilinx_score is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_score is up to date.
+Architecture behavioral of Entity m2_1e_mxilinx_score is up to date.
+Architecture behavioral of Entity m4_1e_mxilinx_score is up to date.
+Architecture behavioral of Entity score is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf" in Library work.
+Architecture behavioral of Entity d3_8e_mxilinx_sevensegdriver is up to date.
+Architecture behavioral of Entity ftce_mxilinx_sevensegdriver is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_sevensegdriver is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_sevensegdriver is up to date.
+Architecture behavioral of Entity sevensegdriver is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf" in Library work.
+Architecture behavioral of Entity d2_4e_mxilinx_turncount is up to date.
+Architecture behavioral of Entity ftce_mxilinx_turncount is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_turncount is up to date.
+Architecture behavioral of Entity turncount is up to date.
+Compiling vhdl file "C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf" in Library work.
+Architecture behavioral of Entity m2_1_mxilinx_mod10 is up to date.
+Architecture behavioral of Entity adsu4_mxilinx_mod10 is up to date.
+Architecture behavioral of Entity compm4_mxilinx_mod10 is up to date.
+Architecture behavioral of Entity mod10 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CardTo7_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <oneto13cnt_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <frequenzy> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <playerCard_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <initRandom_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sevensegDriver_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M4_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <turnCount_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mod3cnt_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <debounce_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <COMPM8_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <score_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB4CE_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADD4_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB2CE_MXILINX_frequenzy> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB8RE_MXILINX_frequenzy> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CD4CE_MXILINX_frequenzy> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <AND6_MXILINX_frequenzy> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SR4CLE_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M8_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mod10_MUSER_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <COMPM4_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M2_1_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB2CE_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D3_8E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M2_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D2_4E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M4_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M4_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M4_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M4_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BCD_7SEG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB4CLE_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_Main> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <FTCE_MXILINX_frequenzy> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <FTRSE_MXILINX_frequenzy> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <ADSU4_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M2_1E_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR8_MXILINX_BCD_7SEG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR9_MXILINX_BCD_7SEG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR6_MXILINX_BCD_7SEG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR7_MXILINX_BCD_7SEG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FTCLEX_MXILINX_Main> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <M2_1_MXILINX_Main> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 5488: Unconnected output port 'HZ1' of component 'frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_168_224" for instance <XLXI_168> in unit <Main>.
+    Set user-defined property "HU_SET =  XLXI_169_225" for instance <XLXI_169> in unit <Main>.
+    Set user-defined property "HU_SET =  XLXI_170_226" for instance <XLXI_170> in unit <Main>.
+    Set user-defined property "HU_SET =  XLXI_172_223" for instance <XLXI_172> in unit <Main>.
+    Set user-defined property "INIT =  0" for instance <XLXI_221> in unit <Main>.
+    Set user-defined property "HU_SET =  XLXI_311_227" for instance <XLXI_311> in unit <Main>.
+    Set user-defined property "HU_SET =  XLXI_332_228" for instance <XLXI_332> in unit <Main>.
+Entity <Main> analyzed. Unit <Main> generated.
+
+Analyzing Entity <CardTo7_MUSER_Main> in library <work> (Architecture <behavioral>).
+Entity <CardTo7_MUSER_Main> analyzed. Unit <CardTo7_MUSER_Main> generated.
+
+Analyzing Entity <oneto13cnt_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4931: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4931: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_2_221" for instance <XLXI_2> in unit <oneto13cnt_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4951: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4951: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_18_222" for instance <XLXI_18> in unit <oneto13cnt_MUSER_Main>.
+Entity <oneto13cnt_MUSER_Main> analyzed. Unit <oneto13cnt_MUSER_Main> generated.
+
+Analyzing Entity <CB4CE_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_140" for instance <I_Q0> in unit <CB4CE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q1_141" for instance <I_Q1> in unit <CB4CE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q2_142" for instance <I_Q2> in unit <CB4CE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q3_143" for instance <I_Q3> in unit <CB4CE_MXILINX_Main>.
+Entity <CB4CE_MXILINX_Main> analyzed. Unit <CB4CE_MXILINX_Main> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_Main> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_Main>.
+Entity <FTCE_MXILINX_Main> analyzed. Unit <FTCE_MXILINX_Main> generated.
+
+Analyzing Entity <ADD4_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_55> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_58> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_62> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_111> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_175> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_178> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_182> in unit <ADD4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_206> in unit <ADD4_MXILINX_Main>.
+Entity <ADD4_MXILINX_Main> analyzed. Unit <ADD4_MXILINX_Main> generated.
+
+Analyzing Entity <frequenzy> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 851: Unconnected output port 'Q0' of component 'CB2CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 851: Unconnected output port 'Q1' of component 'CB2CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 851: Unconnected output port 'TC' of component 'CB2CE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_1_10" for instance <XLXI_1> in unit <frequenzy>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 863: Unconnected output port 'CEO' of component 'CB8RE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 863: Unconnected output port 'TC' of component 'CB8RE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_5_11" for instance <XLXI_5> in unit <frequenzy>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 891: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 891: Unconnected output port 'TC' of component 'CB2CE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_13_12" for instance <XLXI_13> in unit <frequenzy>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 900: Unconnected output port 'CEO' of component 'CB8RE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 900: Unconnected output port 'TC' of component 'CB8RE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_14_13" for instance <XLXI_14> in unit <frequenzy>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 908: Unconnected output port 'CEO' of component 'CB8RE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 908: Unconnected output port 'TC' of component 'CB8RE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_15_14" for instance <XLXI_15> in unit <frequenzy>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 916: Unconnected output port 'Q0' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 916: Unconnected output port 'Q1' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 916: Unconnected output port 'Q2' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 916: Unconnected output port 'Q3' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 916: Unconnected output port 'TC' of component 'CD4CE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_16_15" for instance <XLXI_16> in unit <frequenzy>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 927: Unconnected output port 'CEO' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 927: Unconnected output port 'Q0' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 927: Unconnected output port 'Q1' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 927: Unconnected output port 'Q2' of component 'CD4CE_MXILINX_frequenzy'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf" line 927: Unconnected output port 'TC' of component 'CD4CE_MXILINX_frequenzy'.
+    Set user-defined property "HU_SET =  XLXI_17_16" for instance <XLXI_17> in unit <frequenzy>.
+    Set user-defined property "HU_SET =  XLXI_22_17" for instance <XLXI_22> in unit <frequenzy>.
+Entity <frequenzy> analyzed. Unit <frequenzy> generated.
+
+Analyzing Entity <CB2CE_MXILINX_frequenzy> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_8" for instance <I_Q0> in unit <CB2CE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q1_9" for instance <I_Q1> in unit <CB2CE_MXILINX_frequenzy>.
+Entity <CB2CE_MXILINX_frequenzy> analyzed. Unit <CB2CE_MXILINX_frequenzy> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_frequenzy> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_frequenzy>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_frequenzy>.
+Entity <FTCE_MXILINX_frequenzy> analyzed. Unit <FTCE_MXILINX_frequenzy> generated.
+
+Analyzing Entity <CB8RE_MXILINX_frequenzy> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_7" for instance <I_Q0> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q1_6" for instance <I_Q1> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q2_5" for instance <I_Q2> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q3_4" for instance <I_Q3> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q4_3" for instance <I_Q4> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q5_2" for instance <I_Q5> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q6_1" for instance <I_Q6> in unit <CB8RE_MXILINX_frequenzy>.
+    Set user-defined property "HU_SET =  I_Q7_0" for instance <I_Q7> in unit <CB8RE_MXILINX_frequenzy>.
+Entity <CB8RE_MXILINX_frequenzy> analyzed. Unit <CB8RE_MXILINX_frequenzy> generated.
+
+Analyzing generic Entity <FTRSE_MXILINX_frequenzy> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTRSE_MXILINX_frequenzy>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTRSE_MXILINX_frequenzy>.
+Entity <FTRSE_MXILINX_frequenzy> analyzed. Unit <FTRSE_MXILINX_frequenzy> generated.
+
+Analyzing Entity <CD4CE_MXILINX_frequenzy> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <I_Q0> in unit <CD4CE_MXILINX_frequenzy>.
+    Set user-defined property "INIT =  0" for instance <I_Q1> in unit <CD4CE_MXILINX_frequenzy>.
+    Set user-defined property "INIT =  0" for instance <I_Q2> in unit <CD4CE_MXILINX_frequenzy>.
+    Set user-defined property "INIT =  0" for instance <I_Q3> in unit <CD4CE_MXILINX_frequenzy>.
+Entity <CD4CE_MXILINX_frequenzy> analyzed. Unit <CD4CE_MXILINX_frequenzy> generated.
+
+Analyzing Entity <AND6_MXILINX_frequenzy> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_93> in unit <AND6_MXILINX_frequenzy>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_94> in unit <AND6_MXILINX_frequenzy>.
+Entity <AND6_MXILINX_frequenzy> analyzed. Unit <AND6_MXILINX_frequenzy> generated.
+
+Analyzing Entity <playerCard_MUSER_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_1_183" for instance <XLXI_1> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_2_184" for instance <XLXI_2> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_3_195" for instance <XLXI_3> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_4_196" for instance <XLXI_4> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_5_197" for instance <XLXI_5> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_6_185" for instance <XLXI_6> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_7_186" for instance <XLXI_7> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_8_187" for instance <XLXI_8> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_9_188" for instance <XLXI_9> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4115: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_31_189" for instance <XLXI_31> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4132: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_32_190" for instance <XLXI_32> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4149: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_33_191" for instance <XLXI_33> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4166: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4166: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4166: Unconnected output port 'S1' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4166: Unconnected output port 'S2' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4166: Unconnected output port 'S3' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_34_192" for instance <XLXI_34> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4183: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_35_193" for instance <XLXI_35> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4200: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4200: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4200: Unconnected output port 'S1' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4200: Unconnected output port 'S2' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4200: Unconnected output port 'S3' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_36_194" for instance <XLXI_36> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_40_198" for instance <XLXI_40> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4232: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_64_199" for instance <XLXI_64> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4249: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4249: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4249: Unconnected output port 'S1' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4249: Unconnected output port 'S2' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4249: Unconnected output port 'S3' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_65_200" for instance <XLXI_65> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4359: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_78_201" for instance <XLXI_78> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4376: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4376: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4376: Unconnected output port 'S1' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4376: Unconnected output port 'S2' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4376: Unconnected output port 'S3' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_79_202" for instance <XLXI_79> in unit <playerCard_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4396: Unconnected output port 'LT' of component 'COMPM4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_82_203" for instance <XLXI_82> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_84_204" for instance <XLXI_84> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_85_205" for instance <XLXI_85> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_86_206" for instance <XLXI_86> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_87_207" for instance <XLXI_87> in unit <playerCard_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_88_208" for instance <XLXI_88> in unit <playerCard_MUSER_Main>.
+Entity <playerCard_MUSER_Main> analyzed. Unit <playerCard_MUSER_Main> generated.
+
+Analyzing Entity <SR4CLE_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_MQ0_175" for instance <I_MQ0> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_MQ1_176" for instance <I_MQ1> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_MQ2_177" for instance <I_MQ2> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_MQ3_178" for instance <I_MQ3> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "INIT =  0" for instance <I_Q0> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "INIT =  0" for instance <I_Q1> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "INIT =  0" for instance <I_Q2> in unit <SR4CLE_MXILINX_Main>.
+    Set user-defined property "INIT =  0" for instance <I_Q3> in unit <SR4CLE_MXILINX_Main>.
+Entity <SR4CLE_MXILINX_Main> analyzed. Unit <SR4CLE_MXILINX_Main> generated.
+
+Analyzing Entity <M8_1E_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_M01_182" for instance <I_M01> in unit <M8_1E_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_M23_181" for instance <I_M23> in unit <M8_1E_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_M45_180" for instance <I_M45> in unit <M8_1E_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_M67_179" for instance <I_M67> in unit <M8_1E_MXILINX_Main>.
+Entity <M8_1E_MXILINX_Main> analyzed. Unit <M8_1E_MXILINX_Main> generated.
+
+Analyzing Entity <M2_1E_MXILINX_Main> in library <work> (Architecture <behavioral>).
+Entity <M2_1E_MXILINX_Main> analyzed. Unit <M2_1E_MXILINX_Main> generated.
+
+Analyzing Entity <mod10_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 3304: Unconnected output port 'LT' of component 'COMPM4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_1_168" for instance <XLXI_1> in unit <mod10_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 3322: Unconnected output port 'CO' of component 'ADSU4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 3322: Unconnected output port 'OFL' of component 'ADSU4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_4_169" for instance <XLXI_4> in unit <mod10_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 3343: Unconnected output port 'CO' of component 'ADSU4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 3343: Unconnected output port 'OFL' of component 'ADSU4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_8_170" for instance <XLXI_8> in unit <mod10_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_11_171" for instance <XLXI_11> in unit <mod10_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_12_172" for instance <XLXI_12> in unit <mod10_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_13_173" for instance <XLXI_13> in unit <mod10_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_14_174" for instance <XLXI_14> in unit <mod10_MUSER_Main>.
+Entity <mod10_MUSER_Main> analyzed. Unit <mod10_MUSER_Main> generated.
+
+Analyzing Entity <ADSU4_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_55> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_58> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_62> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_111> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_175> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_178> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_182> in unit <ADSU4_MXILINX_Main>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_206> in unit <ADSU4_MXILINX_Main>.
+Entity <ADSU4_MXILINX_Main> analyzed. Unit <ADSU4_MXILINX_Main> generated.
+
+Analyzing Entity <COMPM4_MXILINX_Main> in library <work> (Architecture <behavioral>).
+Entity <COMPM4_MXILINX_Main> analyzed. Unit <COMPM4_MXILINX_Main> generated.
+
+Analyzing Entity <M2_1_MXILINX_Main> in library <work> (Architecture <behavioral>).
+Entity <M2_1_MXILINX_Main> analyzed. Unit <M2_1_MXILINX_Main> generated.
+
+Analyzing Entity <initRandom_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4613: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4613: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_1_209" for instance <XLXI_1> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4633: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4633: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_18_210" for instance <XLXI_18> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4653: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4653: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_21_211" for instance <XLXI_21> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4673: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4673: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_24_212" for instance <XLXI_24> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4693: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4693: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_26_213" for instance <XLXI_26> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4713: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4713: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_29_214" for instance <XLXI_29> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4733: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4733: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_31_215" for instance <XLXI_31> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4753: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4753: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_34_216" for instance <XLXI_34> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4773: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4773: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_36_217" for instance <XLXI_36> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4793: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4793: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_39_218" for instance <XLXI_39> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4813: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4813: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_41_219" for instance <XLXI_41> in unit <initRandom_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4833: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 4833: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_44_220" for instance <XLXI_44> in unit <initRandom_MUSER_Main>.
+Entity <initRandom_MUSER_Main> analyzed. Unit <initRandom_MUSER_Main> generated.
+
+Analyzing Entity <sevensegDriver_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2623: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2623: Unconnected output port 'Q3' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2623: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_1_163" for instance <XLXI_1> in unit <sevensegDriver_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2642: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2642: Unconnected output port 'TC' of component 'CB2CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_5_164" for instance <XLXI_5> in unit <sevensegDriver_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2729: Unconnected output port 'D5' of component 'D3_8E_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2729: Unconnected output port 'D6' of component 'D3_8E_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2729: Unconnected output port 'D7' of component 'D3_8E_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_22_165" for instance <XLXI_22> in unit <sevensegDriver_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2743: Unconnected output port 'D5' of component 'D3_8E_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2743: Unconnected output port 'D6' of component 'D3_8E_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2743: Unconnected output port 'D7' of component 'D3_8E_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_23_166" for instance <XLXI_23> in unit <sevensegDriver_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2757: Unconnected output port 'D5' of component 'D3_8E_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2757: Unconnected output port 'D6' of component 'D3_8E_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2757: Unconnected output port 'D7' of component 'D3_8E_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_24_167" for instance <XLXI_24> in unit <sevensegDriver_MUSER_Main>.
+Entity <sevensegDriver_MUSER_Main> analyzed. Unit <sevensegDriver_MUSER_Main> generated.
+
+Analyzing Entity <CB2CE_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_144" for instance <I_Q0> in unit <CB2CE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q1_145" for instance <I_Q1> in unit <CB2CE_MXILINX_Main>.
+Entity <CB2CE_MXILINX_Main> analyzed. Unit <CB2CE_MXILINX_Main> generated.
+
+Analyzing Entity <D3_8E_MXILINX_Main> in library <work> (Architecture <behavioral>).
+Entity <D3_8E_MXILINX_Main> analyzed. Unit <D3_8E_MXILINX_Main> generated.
+
+Analyzing Entity <M4_1E_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_M01_147" for instance <I_M01> in unit <M4_1E_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_M23_146" for instance <I_M23> in unit <M4_1E_MXILINX_Main>.
+Entity <M4_1E_MXILINX_Main> analyzed. Unit <M4_1E_MXILINX_Main> generated.
+
+Analyzing Entity <turnCount_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2002: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2002: Unconnected output port 'TC' of component 'CB2CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_1_161" for instance <XLXI_1> in unit <turnCount_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 2011: Unconnected output port 'D3' of component 'D2_4E_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_2_162" for instance <XLXI_2> in unit <turnCount_MUSER_Main>.
+Entity <turnCount_MUSER_Main> analyzed. Unit <turnCount_MUSER_Main> generated.
+
+Analyzing Entity <D2_4E_MXILINX_Main> in library <work> (Architecture <behavioral>).
+Entity <D2_4E_MXILINX_Main> analyzed. Unit <D2_4E_MXILINX_Main> generated.
+
+Analyzing Entity <mod3cnt_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1886: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1886: Unconnected output port 'TC' of component 'CB2CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_1_160" for instance <XLXI_1> in unit <mod3cnt_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_2_159" for instance <XLXI_2> in unit <mod3cnt_MUSER_Main>.
+    Set user-defined property "INIT =  0" for instance <XLXI_7> in unit <mod3cnt_MUSER_Main>.
+Entity <mod3cnt_MUSER_Main> analyzed. Unit <mod3cnt_MUSER_Main> generated.
+
+Analyzing Entity <debounce_MUSER_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_1> in unit <debounce_MUSER_Main>.
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <debounce_MUSER_Main>.
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <debounce_MUSER_Main>.
+Entity <debounce_MUSER_Main> analyzed. Unit <debounce_MUSER_Main> generated.
+
+Analyzing Entity <COMPM8_MXILINX_Main> in library <work> (Architecture <behavioral>).
+Entity <COMPM8_MXILINX_Main> analyzed. Unit <COMPM8_MXILINX_Main> generated.
+
+Analyzing Entity <score_MUSER_Main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1199: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1199: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_2_148" for instance <XLXI_2> in unit <score_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1210: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1210: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_3_149" for instance <XLXI_3> in unit <score_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_7_150" for instance <XLXI_7> in unit <score_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_8_151" for instance <XLXI_8> in unit <score_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_9_152" for instance <XLXI_9> in unit <score_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_10_153" for instance <XLXI_10> in unit <score_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1264: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1264: Unconnected output port 'TC' of component 'CB2CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_23_154" for instance <XLXI_23> in unit <score_MUSER_Main>.
+    Set user-defined property "HU_SET =  XLXI_26_155" for instance <XLXI_26> in unit <score_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1298: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1298: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_28_156" for instance <XLXI_28> in unit <score_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1330: Unconnected output port 'CEO' of component 'CB4CLE_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1330: Unconnected output port 'TC' of component 'CB4CLE_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_37_157" for instance <XLXI_37> in unit <score_MUSER_Main>.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1351: Unconnected output port 'CO' of component 'ADD4_MXILINX_Main'.
+WARNING:Xst:753 - "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf" line 1351: Unconnected output port 'OFL' of component 'ADD4_MXILINX_Main'.
+    Set user-defined property "HU_SET =  XLXI_39_158" for instance <XLXI_39> in unit <score_MUSER_Main>.
+Entity <score_MUSER_Main> analyzed. Unit <score_MUSER_Main> generated.
+
+Analyzing Entity <BCD_7SEG> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_1_0" for instance <XLXI_1> in unit <BCD_7SEG>.
+    Set user-defined property "HU_SET =  XLXI_2_1" for instance <XLXI_2> in unit <BCD_7SEG>.
+    Set user-defined property "HU_SET =  XLXI_4_2" for instance <XLXI_4> in unit <BCD_7SEG>.
+    Set user-defined property "HU_SET =  XLXI_5_3" for instance <XLXI_5> in unit <BCD_7SEG>.
+    Set user-defined property "HU_SET =  XLXI_6_4" for instance <XLXI_6> in unit <BCD_7SEG>.
+    Set user-defined property "HU_SET =  XLXI_8_5" for instance <XLXI_8> in unit <BCD_7SEG>.
+Entity <BCD_7SEG> analyzed. Unit <BCD_7SEG> generated.
+
+Analyzing Entity <OR8_MXILINX_BCD_7SEG> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_91> in unit <OR8_MXILINX_BCD_7SEG>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_116> in unit <OR8_MXILINX_BCD_7SEG>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_117> in unit <OR8_MXILINX_BCD_7SEG>.
+Entity <OR8_MXILINX_BCD_7SEG> analyzed. Unit <OR8_MXILINX_BCD_7SEG> generated.
+
+Analyzing Entity <OR9_MXILINX_BCD_7SEG> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_120> in unit <OR9_MXILINX_BCD_7SEG>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_121> in unit <OR9_MXILINX_BCD_7SEG>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_122> in unit <OR9_MXILINX_BCD_7SEG>.
+Entity <OR9_MXILINX_BCD_7SEG> analyzed. Unit <OR9_MXILINX_BCD_7SEG> generated.
+
+Analyzing Entity <OR6_MXILINX_BCD_7SEG> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_106> in unit <OR6_MXILINX_BCD_7SEG>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_107> in unit <OR6_MXILINX_BCD_7SEG>.
+Entity <OR6_MXILINX_BCD_7SEG> analyzed. Unit <OR6_MXILINX_BCD_7SEG> generated.
+
+Analyzing Entity <OR7_MXILINX_BCD_7SEG> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_110> in unit <OR7_MXILINX_BCD_7SEG>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_111> in unit <OR7_MXILINX_BCD_7SEG>.
+Entity <OR7_MXILINX_BCD_7SEG> analyzed. Unit <OR7_MXILINX_BCD_7SEG> generated.
+
+Analyzing Entity <CB4CLE_MXILINX_Main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_136" for instance <I_Q0> in unit <CB4CLE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q1_137" for instance <I_Q1> in unit <CB4CLE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q2_138" for instance <I_Q2> in unit <CB4CLE_MXILINX_Main>.
+    Set user-defined property "HU_SET =  I_Q3_139" for instance <I_Q3> in unit <CB4CLE_MXILINX_Main>.
+Entity <CB4CLE_MXILINX_Main> analyzed. Unit <CB4CLE_MXILINX_Main> generated.
+
+Analyzing generic Entity <FTCLEX_MXILINX_Main> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "HU_SET =  I_36_30_135" for instance <I_36_30> in unit <FTCLEX_MXILINX_Main>.
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCLEX_MXILINX_Main>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCLEX_MXILINX_Main>.
+Entity <FTCLEX_MXILINX_Main> analyzed. Unit <FTCLEX_MXILINX_Main> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CardTo7_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <CardTo7_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <debounce_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <debounce_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <COMPM8_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <COMPM8_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <ADD4_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADD4_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <FTCE_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <CD4CE_MXILINX_frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+Unit <CD4CE_MXILINX_frequenzy> synthesized.
+
+
+Synthesizing Unit <AND6_MXILINX_frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <AND6_MXILINX_frequenzy> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+Unit <FTCE_MXILINX_frequenzy> synthesized.
+
+
+Synthesizing Unit <FTRSE_MXILINX_frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+Unit <FTRSE_MXILINX_frequenzy> synthesized.
+
+
+Synthesizing Unit <COMPM4_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <COMPM4_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <M2_1_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <M2_1_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <M2_1E_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <M2_1E_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <ADSU4_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADSU4_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <D3_8E_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <D3_8E_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <D2_4E_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <D2_4E_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <OR8_MXILINX_BCD_7SEG>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <OR8_MXILINX_BCD_7SEG> synthesized.
+
+
+Synthesizing Unit <OR9_MXILINX_BCD_7SEG>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <OR9_MXILINX_BCD_7SEG> synthesized.
+
+
+Synthesizing Unit <OR6_MXILINX_BCD_7SEG>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <OR6_MXILINX_BCD_7SEG> synthesized.
+
+
+Synthesizing Unit <OR7_MXILINX_BCD_7SEG>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf".
+Unit <OR7_MXILINX_BCD_7SEG> synthesized.
+
+
+Synthesizing Unit <M4_1E_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <M4_1E_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <CB4CE_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <CB4CE_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <CB2CE_MXILINX_frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+Unit <CB2CE_MXILINX_frequenzy> synthesized.
+
+
+Synthesizing Unit <CB8RE_MXILINX_frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+Unit <CB8RE_MXILINX_frequenzy> synthesized.
+
+
+Synthesizing Unit <SR4CLE_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <SR4CLE_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <M8_1E_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <M8_1E_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <mod10_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <XLXI_8_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_4_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <mod10_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <CB2CE_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <CB2CE_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <BCD_7SEG>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf".
+Unit <BCD_7SEG> synthesized.
+
+
+Synthesizing Unit <FTCLEX_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <FTCLEX_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <oneto13cnt_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <XLXI_18_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <oneto13cnt_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <frequenzy>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf".
+WARNING:Xst:646 - Signal <XLXN_47<7:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <XLXN_34<7:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <XLXN_21<7:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <frequenzy> synthesized.
+
+
+Synthesizing Unit <playerCard_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <XLXN_218<7:5>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <XLXN_218<3>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXN_218<1>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXN_206<7:5>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <XLXI_9_D7_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_9_D6_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_9_D5_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_8_D7_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_8_D6_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_8_D5_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_7_D7_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_7_D6_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_7_D5_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_B0_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_A3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_A2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_79_A1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_78_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_6_D7_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_6_D6_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_6_D5_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_B0_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_A3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_A2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_65_A1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_64_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_5_SLI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_5_CE_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_4_SLI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_4_CE_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_3_SLI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_3_CE_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_B0_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_A3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_A2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_36_A1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_35_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_A3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_A2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_A1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_33_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_32_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_31_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_2_SLI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_2_CE_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_1_SLI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_1_CE_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <playerCard_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <initRandom_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <XLXI_44_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_44_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_44_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_44_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_34_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_29_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_29_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_29_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_29_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_24_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_24_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_24_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_24_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_B1_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <initRandom_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <sevensegDriver_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <sevensegDriver_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <turnCount_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <turnCount_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <mod3cnt_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <mod3cnt_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <CB4CLE_MXILINX_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+Unit <CB4CLE_MXILINX_Main> synthesized.
+
+
+Synthesizing Unit <score_MUSER_Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <XLXI_39_CI_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_B3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_B2_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_39_B0_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_23_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <score_MUSER_Main> synthesized.
+
+
+Synthesizing Unit <Main>.
+    Related source file is "C:/Users/Earth/Documents/ei/Blackjack/Main.vhf".
+WARNING:Xst:653 - Signal <XLXN_1416<7:5>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <XLXN_1415<7:5>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <XLXN_1392<7:5>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <XLXN_1391<7:5>> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <XLXI_172_D3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_170_D3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_169_D3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_168_D3_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <Main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 181
+ Flip-Flops                                            : 181
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Main> ...
+
+Optimizing unit <CardTo7_MUSER_Main> ...
+
+Optimizing unit <COMPM8_MXILINX_Main> ...
+
+Optimizing unit <ADD4_MXILINX_Main> ...
+
+Optimizing unit <FTCE_MXILINX_Main> ...
+
+Optimizing unit <CD4CE_MXILINX_frequenzy> ...
+
+Optimizing unit <AND6_MXILINX_frequenzy> ...
+
+Optimizing unit <FTCE_MXILINX_frequenzy> ...
+
+Optimizing unit <FTRSE_MXILINX_frequenzy> ...
+
+Optimizing unit <COMPM4_MXILINX_Main> ...
+
+Optimizing unit <M2_1_MXILINX_Main> ...
+
+Optimizing unit <M2_1E_MXILINX_Main> ...
+
+Optimizing unit <ADSU4_MXILINX_Main> ...
+
+Optimizing unit <D3_8E_MXILINX_Main> ...
+
+Optimizing unit <D2_4E_MXILINX_Main> ...
+
+Optimizing unit <OR8_MXILINX_BCD_7SEG> ...
+
+Optimizing unit <OR9_MXILINX_BCD_7SEG> ...
+
+Optimizing unit <OR6_MXILINX_BCD_7SEG> ...
+
+Optimizing unit <OR7_MXILINX_BCD_7SEG> ...
+
+Optimizing unit <M4_1E_MXILINX_Main> ...
+
+Optimizing unit <CB4CE_MXILINX_Main> ...
+
+Optimizing unit <CB2CE_MXILINX_frequenzy> ...
+
+Optimizing unit <CB8RE_MXILINX_frequenzy> ...
+
+Optimizing unit <SR4CLE_MXILINX_Main> ...
+
+Optimizing unit <M8_1E_MXILINX_Main> ...
+
+Optimizing unit <CB2CE_MXILINX_Main> ...
+
+Optimizing unit <BCD_7SEG> ...
+
+Optimizing unit <FTCLEX_MXILINX_Main> ...
+
+Optimizing unit <playerCard_MUSER_Main> ...
+
+Optimizing unit <sevensegDriver_MUSER_Main> ...
+
+Optimizing unit <CB4CLE_MXILINX_Main> ...
+
+Optimizing unit <score_MUSER_Main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 8.
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_69/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_69/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_69/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_69/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_69/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_68/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_68/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_68/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_68/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_68/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_67/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_67/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_67/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_67/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_67/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_66/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_66/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_66/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_66/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_66/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_31/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_31/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_31/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_31/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_32/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_32/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_32/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_32/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_33/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_33/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_33/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_33/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_35/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_35/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_35/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_35/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_110/XLXI_36/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_69/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_69/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_69/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_69/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_69/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_68/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_68/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_68/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_68/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_68/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_67/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_67/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_67/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_67/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_67/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_66/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_66/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_66/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_66/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_66/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_31/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_31/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_31/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_31/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_32/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_32/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_32/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_32/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_33/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_33/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_33/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_33/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_35/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_35/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_35/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_35/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_109/XLXI_36/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_69/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_69/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_69/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_69/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_69/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_68/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_68/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_68/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_68/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_68/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_67/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_67/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_67/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_67/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_67/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_66/XLXI_4/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_66/XLXI_4/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_66/XLXI_4/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_66/XLXI_8/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_66/XLXI_8/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_31/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_31/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_31/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_31/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_32/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_32/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_32/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_32/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_33/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_33/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_33/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_33/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_35/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_35/I1> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_35/I2> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_35/I3> may hinder timing optimization.
+   You may achieve better results by removing this property
+WARNING:Xst:387 - The KEEP property attached to the net <XLXI_107/XLXI_36/I0> may hinder timing optimization.
+   You may achieve better results by removing this property
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 181
+ Flip-Flops                                            : 181
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Main.ngr
+Top Level Output File Name         : Main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 47
+
+Cell Usage :
+# BELS                             : 2775
+#      AND2                        : 286
+#      AND2B1                      : 254
+#      AND3                        : 121
+#      AND3B1                      : 204
+#      AND3B2                      : 5
+#      AND4                        : 44
+#      AND4B1                      : 9
+#      AND4B2                      : 11
+#      AND4B3                      : 18
+#      AND5                        : 8
+#      GND                         : 78
+#      INV                         : 176
+#      MUXCY                       : 68
+#      MUXCY_D                     : 68
+#      MUXCY_L                     : 136
+#      MUXF5                       : 8
+#      MUXF5_L                     : 24
+#      MUXF6                       : 12
+#      OR2                         : 430
+#      OR3                         : 5
+#      OR4                         : 21
+#      OR5                         : 3
+#      VCC                         : 24
+#      XNOR2                       : 56
+#      XOR2                        : 314
+#      XOR3                        : 120
+#      XORCY                       : 272
+# FlipFlops/Latches                : 181
+#      FD                          : 24
+#      FDCE                        : 133
+#      FDRE                        : 24
+# Clock Buffers                    : 4
+#      BUFG                        : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 45
+#      IBUF                        : 8
+#      OBUF                        : 37
+# Logical                          : 42
+#      NAND2                       : 1
+#      NAND3                       : 1
+#      NOR2                        : 33
+#      NOR3                        : 2
+#      NOR4                        : 2
+#      NOR5                        : 3
+# Others                           : 289
+#      FMAP                        : 289
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400tq144-4 
+
+ Number of Slices:                       91  out of   3584     2%  
+ Number of Slice Flip Flops:            181  out of   7168     2%  
+ Number of 4 input LUTs:                176  out of   7168     2%  
+ Number of IOs:                          47
+ Number of bonded IOBs:                  47  out of     97    48%  
+ Number of GCLKs:                         4  out of      8    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------+---------------------------------------+-------+
+Clock Signal                         | Clock buffer(FF name)                 | Load  |
+-------------------------------------+---------------------------------------+-------+
+XLXI_46/XLXI_13/I_Q0/Q_DUMMY1        | BUFG                                  | 67    |
+FASTCLK                              | BUFGP                                 | 21    |
+XLXI_297/XLXN_35(XLXI_297/XLXI_5:O)  | NONE(*)(XLXI_297/XLXI_7)              | 1     |
+XLXI_270/XLXN_35(XLXI_270/XLXI_5:O)  | NONE(*)(XLXI_270/XLXI_7)              | 1     |
+XLXI_202/XLXN_35(XLXI_202/XLXI_5:O)  | NONE(*)(XLXI_202/XLXI_7)              | 1     |
+CLK                                  | BUFGP                                 | 14    |
+XLXI_108/XLXN_52(XLXI_108/XLXI_28:O) | NONE(*)(XLXI_108/XLXI_41/I_Q3/I_36_35)| 4     |
+XLXI_108/XLXN_98(XLXI_108/XLXI_43:O) | NONE(*)(XLXI_108/XLXI_36/I_Q3/I_36_35)| 4     |
+XLXI_108/XLXN_99(XLXI_108/XLXI_38:O) | NONE(*)(XLXI_108/XLXI_31/I_Q3/I_36_35)| 4     |
+XLXI_108/XLXN_40(XLXI_108/XLXI_23:O) | NONE(*)(XLXI_108/XLXI_26/I_Q3/I_36_35)| 4     |
+XLXI_108/XLXN_30(XLXI_108/XLXI_16:O) | NONE(*)(XLXI_108/XLXI_21/I_Q3/I_36_35)| 4     |
+XLXI_46/XLXI_13/I_Q1/Q_DUMMY1        | BUFG                                  | 20    |
+XLXI_46/XLXN_22(XLXI_46/XLXI_9:O)    | NONE(*)(XLXI_46/XLXI_13/I_Q1/I_36_35) | 2     |
+XLXI_46/XLXI_17/Q3                   | NONE(XLXI_46/XLXI_5/I_Q7/I_36_35)     | 8     |
+P1_HIT(XLXI_306:O)                   | NONE(*)(XLXI_202/XLXI_1/I_Q1/I_36_35) | 2     |
+XLXN_1197(XLXI_307:O)                | NONE(*)(XLXI_270/XLXI_1/I_Q1/I_36_35) | 2     |
+XLXN_1266(XLXI_308:O)                | NONE(*)(XLXI_297/XLXI_1/I_Q1/I_36_35) | 2     |
+XLXN_915(XLXI_278:O)                 | NONE(*)(XLXI_201/XLXI_1/I_Q1/I_36_35) | 2     |
+XLXI_165/XLXN_8(XLXI_165/XLXI_4:O)   | NONE(*)(XLXI_165/XLXI_5/I_Q1/I_36_35) | 2     |
+XLXI_346/XLXN_108(XLXI_346/XLXI_38:O)| NONE(*)(XLXI_346/XLXI_37/I_Q3/I_36_35)| 4     |
+XLXN_1855(XLXI_418:O)                | NONE(*)(XLXI_346/XLXI_2/I_Q3/I_36_35) | 4     |
+XLXN_1864(XLXI_424:O)                | NONE(*)(XLXI_346/XLXI_3/I_Q3/I_36_35) | 4     |
+XLXI_346/XLXN_70(XLXI_346/XLXI_43:O) | NONE(*)(XLXI_346/XLXI_28/I_Q3/I_36_35)| 4     |
+-------------------------------------+---------------------------------------+-------+
+(*) These 18 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------+------------------------------------+-------+
+Control Signal                      | Buffer(FF name)                    | Load  |
+------------------------------------+------------------------------------+-------+
+CLRNEW                              | IBUF                               | 67    |
+XLXN_1541(XLXI_346/XLXI_32:O)       | NONE(XLXI_346/XLXI_2/I_Q0/I_36_35) | 16    |
+XLXI_46/XLXN_10(XLXI_46/XLXI_4:G)   | NONE(XLXI_346/XLXI_23/I_Q0/I_36_35)| 14    |
+XLXI_108/XLXN_30(XLXI_108/XLXI_16:O)| NONE(XLXI_108/XLXI_1/I_Q0/I_36_35) | 4     |
+XLXI_108/XLXN_40(XLXI_108/XLXI_23:O)| NONE(XLXI_108/XLXI_21/I_Q0/I_36_35)| 4     |
+XLXI_108/XLXN_52(XLXI_108/XLXI_28:O)| NONE(XLXI_108/XLXI_26/I_Q0/I_36_35)| 4     |
+XLXI_108/XLXN_64(XLXI_108/XLXI_33:O)| NONE(XLXI_108/XLXI_31/I_Q0/I_36_35)| 4     |
+XLXI_108/XLXN_98(XLXI_108/XLXI_43:O)| NONE(XLXI_108/XLXI_41/I_Q0/I_36_35)| 4     |
+XLXI_108/XLXN_99(XLXI_108/XLXI_38:O)| NONE(XLXI_108/XLXI_36/I_Q0/I_36_35)| 4     |
+XLXI_165/XLXN_8(XLXI_165/XLXI_4:O)  | NONE(XLXI_165/XLXI_1/I_Q0/I_36_35) | 4     |
+XLXI_25/XLXN_30(XLXI_25/XLXI_16:O)  | NONE(XLXI_25/XLXI_2/I_Q0/I_36_35)  | 4     |
+XLXI_165/XLXN_12(XLXI_165/XLXI_7:O) | NONE(XLXI_165/XLXI_5/I_Q0/I_36_35) | 2     |
+XLXI_201/XLXN_12(XLXI_201/XLXI_6:O) | NONE(XLXI_201/XLXI_1/I_Q0/I_36_35) | 2     |
+------------------------------------+------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 36.208ns (Maximum Frequency: 27.618MHz)
+   Minimum input arrival time before clock: 4.470ns
+   Maximum output required time after clock: 23.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FASTCLK'
+  Clock period: 1.800ns (frequency: 555.556MHz)
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Delay:               1.800ns (Levels of Logic = 0)
+  Source:            XLXI_354/XLXI_2 (FF)
+  Destination:       XLXI_354/XLXI_3 (FF)
+  Source Clock:      FASTCLK rising
+  Destination Clock: FASTCLK rising
+
+  Data Path: XLXI_354/XLXI_2 to XLXI_354/XLXI_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.720   0.877  XLXI_354/XLXI_2 (XLXI_354/XLXN_8)
+     FD:D                      0.203          XLXI_354/XLXI_3
+    ----------------------------------------
+    Total                      1.800ns (0.923ns logic, 0.877ns route)
+                                       (51.3% logic, 48.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.525ns (frequency: 153.257MHz)
+  Total number of paths / destination ports: 71 / 22
+-------------------------------------------------------------------------
+Delay:               6.525ns (Levels of Logic = 6)
+  Source:            XLXI_46/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_46/XLXI_17/I_Q0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_46/XLXI_1/I_Q0/I_36_35 to XLXI_46/XLXI_17/I_Q0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.720   0.907  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND2:I1->O            1   0.551   0.801  I_36_37 (TC)
+     AND2:I1->O            5   0.551   0.921  I_36_52 (CEO)
+     end scope: 'XLXI_46/XLXI_1'
+     begin scope: 'XLXI_46/XLXI_16'
+     AND2:I0->O            5   0.551   0.921  I_36_99 (CEO)
+     end scope: 'XLXI_46/XLXI_16'
+     begin scope: 'XLXI_46/XLXI_17'
+     FDCE:CE                   0.602          I_Q0
+    ----------------------------------------
+    Total                      6.525ns (2.975ns logic, 3.550ns route)
+                                       (45.6% logic, 54.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_108/XLXN_52'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_108/XLXI_41/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_108/XLXI_41/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_108/XLXN_52 rising
+  Destination Clock: XLXI_108/XLXN_52 rising
+
+  Data Path: XLXI_108/XLXI_41/I_Q0/I_36_35 to XLXI_108/XLXI_41/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_108/XLXN_98'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_108/XLXI_36/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_108/XLXI_36/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_108/XLXN_98 rising
+  Destination Clock: XLXI_108/XLXN_98 rising
+
+  Data Path: XLXI_108/XLXI_36/I_Q0/I_36_35 to XLXI_108/XLXI_36/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_108/XLXN_99'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_108/XLXI_31/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_108/XLXI_31/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_108/XLXN_99 rising
+  Destination Clock: XLXI_108/XLXN_99 rising
+
+  Data Path: XLXI_108/XLXI_31/I_Q0/I_36_35 to XLXI_108/XLXI_31/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_108/XLXN_40'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_108/XLXI_26/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_108/XLXI_26/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_108/XLXN_40 rising
+  Destination Clock: XLXI_108/XLXN_40 rising
+
+  Data Path: XLXI_108/XLXI_26/I_Q0/I_36_35 to XLXI_108/XLXI_26/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_108/XLXN_30'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_108/XLXI_21/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_108/XLXI_21/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_108/XLXN_30 rising
+  Destination Clock: XLXI_108/XLXN_30 rising
+
+  Data Path: XLXI_108/XLXI_21/I_Q0/I_36_35 to XLXI_108/XLXI_21/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_46/XLXI_13/I_Q1/Q_DUMMY1'
+  Clock period: 9.055ns (frequency: 110.436MHz)
+  Total number of paths / destination ports: 242 / 44
+-------------------------------------------------------------------------
+Delay:               9.055ns (Levels of Logic = 7)
+  Source:            XLXI_46/XLXI_14/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_46/XLXI_15/I_Q7/I_36_35 (FF)
+  Source Clock:      XLXI_46/XLXI_13/I_Q1/Q_DUMMY1 rising
+  Destination Clock: XLXI_46/XLXI_13/I_Q1/Q_DUMMY1 rising
+
+  Data Path: XLXI_46/XLXI_14/I_Q0/I_36_35 to XLXI_46/XLXI_15/I_Q7/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   0.720   1.003  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_46/XLXI_14'
+     INV:I->O              1   0.551   0.801  XLXI_46/XLXI_21 (XLXI_46/XLXN_37)
+     AND5:I4->O           18   0.551   1.417  XLXI_46/XLXI_18 (XLXI_46/HZNEW)
+     begin scope: 'XLXI_46/XLXI_22'
+     AND3:I2->O            1   0.551   0.801  I_36_69 (I35)
+     AND4:I3->O            8   0.551   1.083  I_36_85 (O_DUMMY)
+     end scope: 'XLXI_46/XLXI_22'
+     begin scope: 'XLXI_46/XLXI_15'
+     begin scope: 'I_Q7'
+     FDRE:R                    1.026          I_36_35
+    ----------------------------------------
+    Total                      9.055ns (3.950ns logic, 5.105ns route)
+                                       (43.6% logic, 56.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_46/XLXN_22'
+  Clock period: 5.618ns (frequency: 177.998MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               5.618ns (Levels of Logic = 3)
+  Source:            XLXI_46/XLXI_13/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_46/XLXI_13/I_Q1/I_36_35 (FF)
+  Source Clock:      XLXI_46/XLXN_22 rising
+  Destination Clock: XLXI_46/XLXN_22 rising
+
+  Data Path: XLXI_46/XLXI_13/I_Q0/I_36_35 to XLXI_46/XLXI_13/I_Q1/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.720   0.877  I_36_35 (Q_DUMMY1)
+     BUFG:I->O            69   0.401   2.065  Q_DUMMY_BUFG (Q)
+     end scope: 'I_Q0'
+     begin scope: 'I_Q1'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      5.618ns (1.875ns logic, 3.743ns route)
+                                       (33.4% logic, 66.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_46/XLXI_17/Q3'
+  Clock period: 7.454ns (frequency: 134.156MHz)
+  Total number of paths / destination ports: 76 / 16
+-------------------------------------------------------------------------
+Delay:               7.454ns (Levels of Logic = 5)
+  Source:            XLXI_46/XLXI_5/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_46/XLXI_5/I_Q7/I_36_35 (FF)
+  Source Clock:      XLXI_46/XLXI_17/Q3 rising
+  Destination Clock: XLXI_46/XLXI_17/Q3 rising
+
+  Data Path: XLXI_46/XLXI_5/I_Q0/I_36_35 to XLXI_46/XLXI_5/I_Q7/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   0.720   1.003  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND4:I3->O            5   0.551   0.921  I_36_23 (T4)
+     AND2:I1->O            1   0.551   0.801  I_36_25 (T5)
+     begin scope: 'I_Q5'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     OR2:I1->O             1   0.551   0.801  I_36_73 (D_S)
+     FDRE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      7.454ns (3.127ns logic, 4.327ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'P1_HIT'
+  Clock period: 3.358ns (frequency: 297.796MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.358ns (Levels of Logic = 2)
+  Source:            XLXI_202/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_202/XLXI_1/I_Q1/I_36_35 (FF)
+  Source Clock:      P1_HIT falling
+  Destination Clock: P1_HIT falling
+
+  Data Path: XLXI_202/XLXI_1/I_Q0/I_36_35 to XLXI_202/XLXI_1/I_Q1/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.720   1.083  I_36_35 (Q)
+     end scope: 'I_Q0'
+     begin scope: 'I_Q1'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      3.358ns (1.474ns logic, 1.884ns route)
+                                       (43.9% logic, 56.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_1197'
+  Clock period: 3.358ns (frequency: 297.796MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.358ns (Levels of Logic = 2)
+  Source:            XLXI_270/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_270/XLXI_1/I_Q1/I_36_35 (FF)
+  Source Clock:      XLXN_1197 falling
+  Destination Clock: XLXN_1197 falling
+
+  Data Path: XLXI_270/XLXI_1/I_Q0/I_36_35 to XLXI_270/XLXI_1/I_Q1/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.720   1.083  I_36_35 (Q)
+     end scope: 'I_Q0'
+     begin scope: 'I_Q1'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      3.358ns (1.474ns logic, 1.884ns route)
+                                       (43.9% logic, 56.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_1266'
+  Clock period: 3.358ns (frequency: 297.796MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.358ns (Levels of Logic = 2)
+  Source:            XLXI_297/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_297/XLXI_1/I_Q1/I_36_35 (FF)
+  Source Clock:      XLXN_1266 falling
+  Destination Clock: XLXN_1266 falling
+
+  Data Path: XLXI_297/XLXI_1/I_Q0/I_36_35 to XLXI_297/XLXI_1/I_Q1/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.720   1.083  I_36_35 (Q)
+     end scope: 'I_Q0'
+     begin scope: 'I_Q1'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      3.358ns (1.474ns logic, 1.884ns route)
+                                       (43.9% logic, 56.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_915'
+  Clock period: 3.358ns (frequency: 297.796MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.358ns (Levels of Logic = 2)
+  Source:            XLXI_201/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_201/XLXI_1/I_Q1/I_36_35 (FF)
+  Source Clock:      XLXN_915 rising
+  Destination Clock: XLXN_915 rising
+
+  Data Path: XLXI_201/XLXI_1/I_Q0/I_36_35 to XLXI_201/XLXI_1/I_Q1/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.720   1.083  I_36_35 (Q)
+     end scope: 'I_Q0'
+     begin scope: 'I_Q1'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      3.358ns (1.474ns logic, 1.884ns route)
+                                       (43.9% logic, 56.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_46/XLXI_13/I_Q0/Q_DUMMY1'
+  Clock period: 36.208ns (frequency: 27.618MHz)
+  Total number of paths / destination ports: 10601086 / 126
+-------------------------------------------------------------------------
+Delay:               36.208ns (Levels of Logic = 35)
+  Source:            XLXI_110/XLXI_1/I_Q3 (FF)
+  Destination:       XLXI_110/XLXI_3/I_Q0 (FF)
+  Source Clock:      XLXI_46/XLXI_13/I_Q0/Q_DUMMY1 rising
+  Destination Clock: XLXI_46/XLXI_13/I_Q0/Q_DUMMY1 rising
+
+  Data Path: XLXI_110/XLXI_1/I_Q3 to XLXI_110/XLXI_3/I_Q0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.720   1.083  I_Q3 (Q3)
+     end scope: 'XLXI_110/XLXI_1'
+     begin scope: 'XLXI_110/XLXI_66/XLXI_1'
+     XNOR2:I0->O           2   0.551   0.877  I_36_8 (EQ_3)
+     AND3B1:I1->O          1   0.551   0.801  I_36_14 (GE2_3)
+     OR2:I1->O             2   0.551   0.877  I_36_19 (GTB)
+     NOR2:I0->O            2   0.551   0.877  I_36_3 (EQ2_3)
+     AND2:I1->O            1   0.551   0.801  I_36_1 (GTA)
+     OR2:I1->O             8   0.551   1.083  I_36_12 (GT)
+     end scope: 'XLXI_110/XLXI_66/XLXI_1'
+     begin scope: 'XLXI_110/XLXI_66/XLXI_11'
+     AND2B1:I0->O          1   0.551   0.801  I_36_7 (M0)
+     OR2:I1->O             1   0.551   0.801  I_36_8 (O)
+     end scope: 'XLXI_110/XLXI_66/XLXI_11'
+     begin scope: 'XLXI_110/XLXI_31'
+     XOR2:I0->O            1   0.551   0.000  I_36_239 (I0)
+     MUXCY_L:S->LO         1   0.500   0.000  I_36_111 (C0)
+     XORCY:CI->O           1   0.904   0.801  I_36_74 (S1)
+     end scope: 'XLXI_110/XLXI_31'
+     begin scope: 'XLXI_110/XLXI_33'
+     XOR2:I0->O            1   0.551   0.000  I_36_240 (I1)
+     MUXCY_L:S->LO         1   0.500   0.000  I_36_55 (C1)
+     XORCY:CI->O           2   0.904   0.877  I_36_76 (S2)
+     end scope: 'XLXI_110/XLXI_33'
+     begin scope: 'XLXI_110/XLXI_35'
+     XOR2:I0->O            1   0.551   0.000  I_36_241 (I2)
+     MUXCY_D:S->LO         1   0.739   0.000  I_36_62 (C2)
+     XORCY:CI->O           3   0.904   0.907  I_36_75 (S3)
+     end scope: 'XLXI_110/XLXI_35'
+     begin scope: 'XLXI_110/XLXI_40'
+     XNOR2:I0->O           2   0.551   0.877  I_36_15 (EQ_3)
+     AND3B1:I1->O          1   0.551   0.801  I_36_11 (LE2_3)
+     OR2:I1->O             2   0.551   0.877  I_36_6 (LT2_3)
+     NOR2:I1->O            2   0.551   0.877  I_36_39 (EQ2_3)
+     AND4:I2->O            1   0.551   0.801  I_36_36 (LTA)
+     OR4:I3->O             1   0.551   0.801  I_36_3 (LT)
+     end scope: 'XLXI_110/XLXI_40'
+     AND5:I1->O            4   0.551   0.917  XLXI_308 (XLXN_1266)
+     AND2:I1->O            9   0.551   1.124  XLXI_301 (XLXN_1280)
+     begin scope: 'XLXI_110/XLXI_3'
+     begin scope: 'I_MQ3'
+     AND2B1:I0->O          1   0.551   0.801  I_36_7 (M0)
+     OR2:I1->O             1   0.551   0.801  I_36_8 (O)
+     end scope: 'I_MQ3'
+     FDCE:D                    0.203          I_Q3
+    ----------------------------------------
+    Total                     36.208ns (16.945ns logic, 19.263ns route)
+                                       (46.8% logic, 53.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_165/XLXN_8'
+  Clock period: 4.094ns (frequency: 244.276MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               4.094ns (Levels of Logic = 2)
+  Source:            XLXI_165/XLXI_5/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_165/XLXI_5/I_Q1/I_36_35 (FF)
+  Source Clock:      XLXI_165/XLXN_8 rising
+  Destination Clock: XLXI_165/XLXN_8 rising
+
+  Data Path: XLXI_165/XLXI_5/I_Q0/I_36_35 to XLXI_165/XLXI_5/I_Q1/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            26   0.720   1.819  I_36_35 (Q)
+     end scope: 'I_Q0'
+     begin scope: 'I_Q1'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.094ns (1.474ns logic, 2.620ns route)
+                                       (36.0% logic, 64.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_346/XLXN_108'
+  Clock period: 7.892ns (frequency: 126.711MHz)
+  Total number of paths / destination ports: 26 / 4
+-------------------------------------------------------------------------
+Delay:               7.892ns (Levels of Logic = 11)
+  Source:            XLXI_346/XLXI_37/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_346/XLXI_37/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_346/XLXN_108 rising
+  Destination Clock: XLXI_346/XLXN_108 rising
+
+  Data Path: XLXI_346/XLXI_37/I_Q0/I_36_35 to XLXI_346/XLXI_37/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_346/XLXI_37'
+     begin scope: 'XLXI_346/XLXI_39'
+     XOR2:I0->O            1   0.551   0.000  I_36_239 (I0)
+     MUXCY_L:S->LO         1   0.500   0.000  I_36_111 (C0)
+     MUXCY_L:CI->LO        1   0.064   0.000  I_36_55 (C1)
+     MUXCY_D:CI->LO        1   0.303   0.000  I_36_62 (C2)
+     XORCY:CI->O           2   0.904   0.877  I_36_75 (S3)
+     end scope: 'XLXI_346/XLXI_39'
+     begin scope: 'XLXI_346/XLXI_37'
+     begin scope: 'I_Q3'
+     begin scope: 'I_36_30'
+     AND2:I0->O            1   0.551   0.801  I_36_9 (M1)
+     OR2:I0->O             1   0.551   0.801  I_36_8 (O)
+     end scope: 'I_36_30'
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      7.892ns (4.347ns logic, 3.545ns route)
+                                       (55.1% logic, 44.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_1855'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_346/XLXI_2/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_346/XLXI_2/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXN_1855 rising
+  Destination Clock: XLXN_1855 rising
+
+  Data Path: XLXI_346/XLXI_2/I_Q0/I_36_35 to XLXI_346/XLXI_2/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_1864'
+  Clock period: 4.693ns (frequency: 213.083MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.693ns (Levels of Logic = 3)
+  Source:            XLXI_346/XLXI_3/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_346/XLXI_3/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXN_1864 rising
+  Destination Clock: XLXN_1864 rising
+
+  Data Path: XLXI_346/XLXI_3/I_Q0/I_36_35 to XLXI_346/XLXI_3/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.693ns (2.025ns logic, 2.668ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_346/XLXN_70'
+  Clock period: 4.630ns (frequency: 215.983MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               4.630ns (Levels of Logic = 3)
+  Source:            XLXI_346/XLXI_28/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_346/XLXI_28/I_Q3/I_36_35 (FF)
+  Source Clock:      XLXI_346/XLXN_70 rising
+  Destination Clock: XLXI_346/XLXN_70 rising
+
+  Data Path: XLXI_346/XLXI_28/I_Q0/I_36_35 to XLXI_346/XLXI_28/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.720   1.003  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND3:I2->O            1   0.551   0.801  I_36_32 (T3)
+     begin scope: 'I_Q3'
+     XOR2:I0->O            1   0.551   0.801  I_36_32 (TQ)
+     FDCE:D                    0.203          I_36_35
+    ----------------------------------------
+    Total                      4.630ns (2.025ns logic, 2.605ns route)
+                                       (43.7% logic, 56.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FASTCLK'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              1.825ns (Levels of Logic = 1)
+  Source:            initSW (PAD)
+  Destination:       XLXI_354/XLXI_1 (FF)
+  Destination Clock: FASTCLK rising
+
+  Data Path: initSW to XLXI_354/XLXI_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  initSW_IBUF (initSW_IBUF)
+     FD:D                      0.203          XLXI_354/XLXI_1
+    ----------------------------------------
+    Total                      1.825ns (1.024ns logic, 0.801ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_297/XLXN_35'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.470ns (Levels of Logic = 2)
+  Source:            CLRNEW (PAD)
+  Destination:       XLXI_297/XLXI_7 (FF)
+  Destination Clock: XLXI_297/XLXN_35 rising
+
+  Data Path: CLRNEW to XLXI_297/XLXI_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.821   2.094  CLRNEW_IBUF (CLRNEW_IBUF)
+     INV:I->O              1   0.551   0.801  XLXI_297/XLXI_6 (XLXI_297/XLXN_14)
+     FD:D                      0.203          XLXI_297/XLXI_7
+    ----------------------------------------
+    Total                      4.470ns (1.575ns logic, 2.895ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_270/XLXN_35'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.470ns (Levels of Logic = 2)
+  Source:            CLRNEW (PAD)
+  Destination:       XLXI_270/XLXI_7 (FF)
+  Destination Clock: XLXI_270/XLXN_35 rising
+
+  Data Path: CLRNEW to XLXI_270/XLXI_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.821   2.094  CLRNEW_IBUF (CLRNEW_IBUF)
+     INV:I->O              1   0.551   0.801  XLXI_270/XLXI_6 (XLXI_270/XLXN_14)
+     FD:D                      0.203          XLXI_270/XLXI_7
+    ----------------------------------------
+    Total                      4.470ns (1.575ns logic, 2.895ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_202/XLXN_35'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.470ns (Levels of Logic = 2)
+  Source:            CLRNEW (PAD)
+  Destination:       XLXI_202/XLXI_7 (FF)
+  Destination Clock: XLXI_202/XLXN_35 rising
+
+  Data Path: CLRNEW to XLXI_202/XLXI_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            74   0.821   2.094  CLRNEW_IBUF (CLRNEW_IBUF)
+     INV:I->O              1   0.551   0.801  XLXI_202/XLXI_6 (XLXI_202/XLXN_14)
+     FD:D                      0.203          XLXI_202/XLXI_7
+    ----------------------------------------
+    Total                      4.470ns (1.575ns logic, 2.895ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_346/XLXN_70'
+  Total number of paths / destination ports: 192 / 7
+-------------------------------------------------------------------------
+Offset:              16.426ns (Levels of Logic = 12)
+  Source:            XLXI_346/XLXI_28/I_Q0/I_36_35 (FF)
+  Destination:       SCORE_a (PAD)
+  Source Clock:      XLXI_346/XLXN_70 rising
+
+  Data Path: XLXI_346/XLXI_28/I_Q0/I_36_35 to SCORE_a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.720   1.003  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_346/XLXI_28'
+     begin scope: 'XLXI_346/XLXI_7'
+     begin scope: 'I_M23'
+     AND3:I0->O            1   0.551   0.801  I_36_30 (M1)
+     OR2:I0->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M23'
+     MUXF5:I1->O           6   0.360   1.003  I_O (O)
+     end scope: 'XLXI_346/XLXI_7'
+     INV:I->O              5   0.551   0.921  XLXI_346/XLXI_25/XLXI_78 (XLXI_346/XLXI_25/XLXN_3)
+     AND4:I3->O            7   0.551   1.066  XLXI_346/XLXI_25/XLXI_11 (XLXI_346/XLXI_25/XLXN_92)
+     begin scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OR4:I2->O             1   0.551   0.801  I_36_95 (S1)
+     OR2:I1->O             1   0.551   0.801  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OBUF:I->O                 5.644          SCORE_a_OBUF (SCORE_a)
+    ----------------------------------------
+    Total                     16.426ns (10.030ns logic, 6.396ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_346/XLXN_108'
+  Total number of paths / destination ports: 192 / 7
+-------------------------------------------------------------------------
+Offset:              16.489ns (Levels of Logic = 12)
+  Source:            XLXI_346/XLXI_37/I_Q1/I_36_35 (FF)
+  Destination:       SCORE_a (PAD)
+  Source Clock:      XLXI_346/XLXN_108 rising
+
+  Data Path: XLXI_346/XLXI_37/I_Q1/I_36_35 to SCORE_a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q1'
+     end scope: 'XLXI_346/XLXI_37'
+     begin scope: 'XLXI_346/XLXI_8'
+     begin scope: 'I_M23'
+     AND3B1:I2->O          1   0.551   0.801  I_36_31 (M0)
+     OR2:I1->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M23'
+     MUXF5:I1->O           5   0.360   0.921  I_O (O)
+     end scope: 'XLXI_346/XLXI_8'
+     INV:I->O              6   0.551   1.003  XLXI_346/XLXI_25/XLXI_77 (XLXI_346/XLXI_25/XLXN_4)
+     AND4:I2->O            7   0.551   1.066  XLXI_346/XLXI_25/XLXI_11 (XLXI_346/XLXI_25/XLXN_92)
+     begin scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OR4:I2->O             1   0.551   0.801  I_36_95 (S1)
+     OR2:I1->O             1   0.551   0.801  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OBUF:I->O                 5.644          SCORE_a_OBUF (SCORE_a)
+    ----------------------------------------
+    Total                     16.489ns (10.030ns logic, 6.459ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_1864'
+  Total number of paths / destination ports: 192 / 7
+-------------------------------------------------------------------------
+Offset:              16.489ns (Levels of Logic = 12)
+  Source:            XLXI_346/XLXI_3/I_Q0/I_36_35 (FF)
+  Destination:       SCORE_a (PAD)
+  Source Clock:      XLXN_1864 rising
+
+  Data Path: XLXI_346/XLXI_3/I_Q0/I_36_35 to SCORE_a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_346/XLXI_3'
+     begin scope: 'XLXI_346/XLXI_7'
+     begin scope: 'I_M01'
+     AND3:I0->O            1   0.551   0.801  I_36_30 (M1)
+     OR2:I0->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M01'
+     MUXF5:I0->O           6   0.360   1.003  I_O (O)
+     end scope: 'XLXI_346/XLXI_7'
+     INV:I->O              5   0.551   0.921  XLXI_346/XLXI_25/XLXI_78 (XLXI_346/XLXI_25/XLXN_3)
+     AND4:I3->O            7   0.551   1.066  XLXI_346/XLXI_25/XLXI_11 (XLXI_346/XLXI_25/XLXN_92)
+     begin scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OR4:I2->O             1   0.551   0.801  I_36_95 (S1)
+     OR2:I1->O             1   0.551   0.801  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OBUF:I->O                 5.644          SCORE_a_OBUF (SCORE_a)
+    ----------------------------------------
+    Total                     16.489ns (10.030ns logic, 6.459ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_46/XLXI_13/I_Q0/Q_DUMMY1'
+  Total number of paths / destination ports: 3989 / 34
+-------------------------------------------------------------------------
+Offset:              21.120ns (Levels of Logic = 17)
+  Source:            XLXI_165/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       a (PAD)
+  Source Clock:      XLXI_46/XLXI_13/I_Q0/Q_DUMMY1 rising
+
+  Data Path: XLXI_165/XLXI_1/I_Q0/I_36_35 to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.720   1.124  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_165/XLXI_1'
+     AND3:I2->O           40   0.551   1.899  XLXI_165/XLXI_13 (XLXN_620)
+     begin scope: 'XLXI_107/XLXI_6'
+     begin scope: 'I_M67'
+     AND3:I2->O            1   0.551   0.801  I_36_30 (M1)
+     OR2:I0->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M67'
+     MUXF5_L:I1->LO        1   0.360   0.000  I_M47 (M47)
+     MUXF6:I1->O           1   0.342   0.801  I_O (O)
+     end scope: 'XLXI_107/XLXI_6'
+     begin scope: 'XLXI_168'
+     begin scope: 'I_M01'
+     AND3B1:I2->O          1   0.551   0.801  I_36_31 (M0)
+     OR2:I1->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M01'
+     MUXF5:I0->O          10   0.360   1.134  I_O (O)
+     end scope: 'XLXI_168'
+     INV:I->O              9   0.551   1.124  XLXI_3/XLXI_10 (XLXI_3/XLXN_16)
+     AND2:I0->O            1   0.551   0.801  XLXI_3/XLXI_13 (XLXI_3/XLXN_27)
+     NOR4:I0->O            1   0.551   0.801  XLXI_3/XLXI_44 (a_OBUF)
+     OBUF:I->O                 5.644          a_OBUF (a)
+    ----------------------------------------
+    Total                     21.120ns (11.834ns logic, 9.286ns route)
+                                       (56.0% logic, 44.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_1855'
+  Total number of paths / destination ports: 192 / 7
+-------------------------------------------------------------------------
+Offset:              16.489ns (Levels of Logic = 12)
+  Source:            XLXI_346/XLXI_2/I_Q0/I_36_35 (FF)
+  Destination:       SCORE_a (PAD)
+  Source Clock:      XLXN_1855 rising
+
+  Data Path: XLXI_346/XLXI_2/I_Q0/I_36_35 to SCORE_a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.720   1.066  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_346/XLXI_2'
+     begin scope: 'XLXI_346/XLXI_7'
+     begin scope: 'I_M01'
+     AND3B1:I2->O          1   0.551   0.801  I_36_31 (M0)
+     OR2:I1->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M01'
+     MUXF5:I0->O           6   0.360   1.003  I_O (O)
+     end scope: 'XLXI_346/XLXI_7'
+     INV:I->O              5   0.551   0.921  XLXI_346/XLXI_25/XLXI_78 (XLXI_346/XLXI_25/XLXN_3)
+     AND4:I3->O            7   0.551   1.066  XLXI_346/XLXI_25/XLXI_11 (XLXI_346/XLXI_25/XLXN_92)
+     begin scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OR4:I2->O             1   0.551   0.801  I_36_95 (S1)
+     OR2:I1->O             1   0.551   0.801  I_36_94 (O_DUMMY)
+     end scope: 'XLXI_346/XLXI_25/XLXI_6'
+     OBUF:I->O                 5.644          SCORE_a_OBUF (SCORE_a)
+    ----------------------------------------
+    Total                     16.489ns (10.030ns logic, 6.459ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_165/XLXN_8'
+  Total number of paths / destination ports: 4522 / 23
+-------------------------------------------------------------------------
+Offset:              23.283ns (Levels of Logic = 18)
+  Source:            XLXI_165/XLXI_5/I_Q0/I_36_35 (FF)
+  Destination:       a (PAD)
+  Source Clock:      XLXI_165/XLXN_8 rising
+
+  Data Path: XLXI_165/XLXI_5/I_Q0/I_36_35 to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            26   0.720   1.819  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_165/XLXI_5'
+     INV:I->O              4   0.551   0.917  XLXI_165/XLXI_8 (XLXI_165/XLXN_14)
+     AND3:I1->O           40   0.551   1.899  XLXI_165/XLXI_13 (XLXN_620)
+     begin scope: 'XLXI_107/XLXI_6'
+     begin scope: 'I_M67'
+     AND3:I2->O            1   0.551   0.801  I_36_30 (M1)
+     OR2:I0->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M67'
+     MUXF5_L:I1->LO        1   0.360   0.000  I_M47 (M47)
+     MUXF6:I1->O           1   0.342   0.801  I_O (O)
+     end scope: 'XLXI_107/XLXI_6'
+     begin scope: 'XLXI_168'
+     begin scope: 'I_M01'
+     AND3B1:I2->O          1   0.551   0.801  I_36_31 (M0)
+     OR2:I1->O             1   0.551   0.000  I_36_38 (O)
+     end scope: 'I_M01'
+     MUXF5:I0->O          10   0.360   1.134  I_O (O)
+     end scope: 'XLXI_168'
+     INV:I->O              9   0.551   1.124  XLXI_3/XLXI_10 (XLXI_3/XLXN_16)
+     AND2:I0->O            1   0.551   0.801  XLXI_3/XLXI_13 (XLXI_3/XLXN_27)
+     NOR4:I0->O            1   0.551   0.801  XLXI_3/XLXI_44 (a_OBUF)
+     OBUF:I->O                 5.644          a_OBUF (a)
+    ----------------------------------------
+    Total                     23.283ns (12.385ns logic, 10.898ns route)
+                                       (53.2% logic, 46.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_915'
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Offset:              8.905ns (Levels of Logic = 4)
+  Source:            XLXI_201/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       LEDTURN0 (PAD)
+  Source Clock:      XLXN_915 rising
+
+  Data Path: XLXI_201/XLXI_1/I_Q0/I_36_35 to LEDTURN0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.720   1.083  I_36_35 (Q)
+     end scope: 'I_Q0'
+     end scope: 'XLXI_201/XLXI_1'
+     begin scope: 'XLXI_201/XLXI_2'
+     AND3B1:I0->O          3   0.551   0.907  I_36_31 (D2)
+     end scope: 'XLXI_201/XLXI_2'
+     OBUF:I->O                 5.644          LEDTURN2_OBUF (LEDTURN2)
+    ----------------------------------------
+    Total                      8.905ns (6.915ns logic, 1.990ns route)
+                                       (77.7% logic, 22.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.70 secs
+ 
+--> 
+
+Total memory usage is 351904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  335 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

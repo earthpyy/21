@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Dec 03 23:01:13 2016
+# Process ID: 6848
+# Log file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Earth/Documents/ei/Blackjack/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P123 [get_ports XLXN_6]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list XLXN_6]]
+save_constraints

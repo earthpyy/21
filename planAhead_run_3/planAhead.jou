@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Dec 03 23:55:03 2016
+# Process ID: 4628
+# Log file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Earth/Documents/ei/Blackjack/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P112 [get_ports XLXN_7]
+endgroup
+startgroup
+set_property package_pin P108 [get_ports XLXN_8]
+endgroup
+startgroup
+set_property package_pin P107 [get_ports XLXN_9]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports XLXN_10]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports XLXN_11]
+endgroup
+startgroup
+set_property package_pin P103 [get_ports XLXN_12]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports XLXN_13]
+endgroup
+startgroup
+set_property package_pin P100 [get_ports XLXN_14]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports XLXN_15]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports XLXN_16]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports XLXN_17]
+endgroup
+startgroup
+set_property package_pin P20 [get_ports XLXN_18]
+endgroup
+save_constraints

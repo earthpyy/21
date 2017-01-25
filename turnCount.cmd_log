@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3 -w -refsym turnCount C:/Users/Earth/Documents/ei/Blackjack/turnCount.sch C:/Users/Earth/Documents/ei/Blackjack/turnCount.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym turnCount C:/Users/Earth/Documents/ei/Blackjack/turnCount.sch C:/Users/Earth/Documents/ei/Blackjack/turnCount.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym turnCount C:/Users/Earth/Documents/ei/Blackjack/turnCount.sch C:/Users/Earth/Documents/ei/Blackjack/turnCount.sym 

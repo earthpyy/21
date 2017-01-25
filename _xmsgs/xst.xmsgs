@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">5488</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">HZ1</arg>&apos; of component &apos;<arg fmt="%s" index="4">frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4931</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4931</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4951</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4951</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">851</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">851</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">851</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">863</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8RE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">863</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8RE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">891</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">891</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">900</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8RE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">900</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8RE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">908</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8RE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">908</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB8RE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">916</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">916</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">916</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q2</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">916</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">916</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">927</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">927</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q0</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">927</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q1</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">927</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q2</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf</arg>&quot; line <arg fmt="%d" index="2">927</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CD4CE_MXILINX_frequenzy</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4115</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4132</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4149</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S1</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S2</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4166</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S3</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4183</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4200</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4200</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4200</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S1</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4200</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S2</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4200</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S3</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4232</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S1</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S2</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4249</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S3</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4359</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4376</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4376</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4376</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S1</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4376</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S2</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4376</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">S3</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4396</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">3304</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LT</arg>&apos; of component &apos;<arg fmt="%s" index="4">COMPM4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">3322</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADSU4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">3322</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADSU4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">3343</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADSU4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">3343</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADSU4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4633</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4633</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4653</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4653</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4673</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4673</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4693</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4693</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4713</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4713</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4733</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4733</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4753</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4753</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4773</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4773</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4793</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4793</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4813</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4813</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4833</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">4833</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2623</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2623</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q3</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2623</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2642</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2642</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2729</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D5</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2729</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D6</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2729</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D7</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2743</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D5</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2743</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D6</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2743</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D7</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2757</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D5</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2757</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D6</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2757</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D7</arg>&apos; of component &apos;<arg fmt="%s" index="4">D3_8E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2002</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2002</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">2011</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D3</arg>&apos; of component &apos;<arg fmt="%s" index="4">D2_4E_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1886</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1886</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1199</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1199</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1210</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1210</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1264</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1264</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1298</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1298</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1330</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1330</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLE_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1351</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Earth/Documents/ei/Blackjack/Main.vhf</arg>&quot; line <arg fmt="%d" index="2">1351</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD4_MXILINX_Main</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_8_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_4_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_47&lt;7:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_34&lt;7:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_21&lt;7:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_218&lt;7:5&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_218&lt;3&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_218&lt;1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_206&lt;7:5&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_9_D7_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_9_D6_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_9_D5_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_8_D7_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_8_D6_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_8_D5_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_7_D7_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_7_D6_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_7_D5_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_B0_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_A3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_A2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_79_A1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_78_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_D7_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_D6_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_D5_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_B0_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_A3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_A2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_65_A1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_64_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_5_SLI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_5_CE_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_4_SLI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_4_CE_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_3_SLI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_3_CE_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_B0_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_A3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_A2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_A1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_35_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_A3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_A2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_A1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_33_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_32_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_31_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_SLI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_CE_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_SLI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_CE_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_44_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_44_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_44_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_44_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_34_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_29_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_29_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_29_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_29_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_24_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_24_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_24_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_24_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_18_B1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_CI_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_B2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_39_B0_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_23_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_1416&lt;7:5&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_1415&lt;7:5&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_1392&lt;7:5&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_1391&lt;7:5&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_172_D3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_170_D3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_169_D3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_168_D3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_69/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_69/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_69/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_69/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_69/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_68/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_68/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_68/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_68/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_68/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_67/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_67/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_67/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_67/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_67/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_66/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_66/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_66/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_66/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_66/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_31/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_31/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_31/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_31/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_32/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_32/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_32/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_32/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_33/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_33/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_33/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_33/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_35/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_35/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_35/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_35/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_110/XLXI_36/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_69/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_69/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_69/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_69/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_69/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_68/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_68/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_68/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_68/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_68/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_67/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_67/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_67/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_67/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_67/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_66/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_66/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_66/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_66/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_66/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_31/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_31/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_31/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_31/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_32/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_32/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_32/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_32/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_33/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_33/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_33/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_33/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_35/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_35/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_35/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_35/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_109/XLXI_36/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_69/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_69/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_69/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_69/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_69/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_68/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_68/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_68/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_68/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_68/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_67/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_67/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_67/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_67/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_67/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_66/XLXI_4/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_66/XLXI_4/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_66/XLXI_4/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_66/XLXI_8/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_66/XLXI_8/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_31/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_31/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_31/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_31/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_32/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_32/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_32/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_32/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_33/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_33/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_33/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_33/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_35/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_35/I1</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_35/I2</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_35/I3</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="warning" file="Xst" num="387" delta="old" >The KEEP property attached to the net &lt;<arg fmt="%s" index="1">XLXI_107/XLXI_36/I0</arg>&gt; may hinder timing optimization.
+You may achieve better results by removing this property
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

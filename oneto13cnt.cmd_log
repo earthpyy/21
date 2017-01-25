@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3 -refsym oneto13cnt C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.sch C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.sym 
+sch2sym -intstyle ise -family spartan3 -w -refsym oneto13cnt C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.sch C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.sym 

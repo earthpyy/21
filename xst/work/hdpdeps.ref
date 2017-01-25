@@ -1,0 +1,662 @@
+V3 315
+FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf 2016/12/06.00:14:51 P.20131013
+EN work/OR6_MXILINX_BCD_7SEG 1480978631 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR6_MXILINX_BCD_7SEG/BEHAVIORAL 1480978632 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      EN work/OR6_MXILINX_BCD_7SEG 1480978631 CP OR4 CP OR3 CP FMAP
+EN work/OR8_MXILINX_BCD_7SEG 1480978633 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR8_MXILINX_BCD_7SEG/BEHAVIORAL 1480978634 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      EN work/OR8_MXILINX_BCD_7SEG 1480978633 CP FMAP CP OR2 CP OR4
+EN work/OR7_MXILINX_BCD_7SEG 1480978635 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR7_MXILINX_BCD_7SEG/BEHAVIORAL 1480978636 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      EN work/OR7_MXILINX_BCD_7SEG 1480978635 CP OR4 CP FMAP
+EN work/OR9_MXILINX_BCD_7SEG 1480978637 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OR9_MXILINX_BCD_7SEG/BEHAVIORAL 1480978638 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      EN work/OR9_MXILINX_BCD_7SEG 1480978637 CP OR4 CP OR3 CP FMAP
+EN work/BCD_7SEG 1480978639 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BCD_7SEG/BEHAVIORAL 1480978640 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/BCD_7SEG.vhf EN work/BCD_7SEG 1480978639 \
+      CP OR8_MXILINX_BCD_7SEG CP OR9_MXILINX_BCD_7SEG CP OR4 \
+      CP OR6_MXILINX_BCD_7SEG CP OR7_MXILINX_BCD_7SEG CP AND4 CP INV
+FL C:/Users/Earth/Documents/ei/Blackjack/CardTo7.vhf 2016/12/04.01:05:02 P.20131013
+EN work/CardTo7 1480978709 FL C:/Users/Earth/Documents/ei/Blackjack/CardTo7.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CardTo7/BEHAVIORAL 1480978710 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/CardTo7.vhf EN work/CardTo7 1480978709 \
+      CP AND2 CP INV CP AND3 CP AND4 CP NOR4 CP NOR3 CP NOR5 CP NAND3
+FL C:/Users/Earth/Documents/ei/Blackjack/debounce.vhf 2016/12/05.06:50:40 P.20131013
+EN work/debounce 1480978711 FL C:/Users/Earth/Documents/ei/Blackjack/debounce.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/debounce/BEHAVIORAL 1480978712 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/debounce.vhf EN work/debounce 1480978711 \
+      CP FD CP AND3B1
+FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf 2016/12/04.04:12:03 P.20131013
+EN work/AND6_MXILINX_frequenzy 1480978641 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/AND6_MXILINX_frequenzy/BEHAVIORAL 1480978642 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      EN work/AND6_MXILINX_frequenzy 1480978641 CP AND3 CP AND4 CP FMAP
+EN work/CD4CE_MXILINX_frequenzy 1480978643 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CD4CE_MXILINX_frequenzy/BEHAVIORAL 1480978644 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      EN work/CD4CE_MXILINX_frequenzy 1480978643 CP FDCE CP AND3 CP XOR2 CP OR2 \
+      CP AND2 CP AND2B1 CP INV CP AND4B2
+EN work/FTRSE_MXILINX_frequenzy 1480978645 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTRSE_MXILINX_frequenzy/BEHAVIORAL 1480978646 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      EN work/FTRSE_MXILINX_frequenzy 1480978645 CP XOR2 CP FDRE CP OR2
+EN work/CB8RE_MXILINX_frequenzy 1480978647 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB8RE_MXILINX_frequenzy/BEHAVIORAL 1480978648 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      EN work/CB8RE_MXILINX_frequenzy 1480978647 CP FTRSE_MXILINX_frequenzy CP GND \
+      CP VCC CP AND2 CP AND3 CP AND4 CP AND5
+EN work/FTCE_MXILINX_frequenzy 1480978649 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_frequenzy/BEHAVIORAL 1480978650 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      EN work/FTCE_MXILINX_frequenzy 1480978649 CP XOR2 CP FDCE
+EN work/CB2CE_MXILINX_frequenzy 1480978651 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_frequenzy/BEHAVIORAL 1480978652 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      EN work/CB2CE_MXILINX_frequenzy 1480978651 CP FTCE_MXILINX_frequenzy CP AND2 \
+      CP VCC
+EN work/frequenzy 1480978653 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/frequenzy/BEHAVIORAL 1480978654 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/frequenzy.vhf EN work/frequenzy 1480978653 \
+      CP CB2CE_MXILINX_frequenzy CP GND CP CB8RE_MXILINX_frequenzy CP INV CP AND5 \
+      CP CD4CE_MXILINX_frequenzy CP AND6_MXILINX_frequenzy CP VCC CP AND2
+FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf 2016/12/04.06:02:01 P.20131013
+EN work/ADD4_MXILINX_initRandom 1480978713 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_initRandom/BEHAVIORAL 1480978714 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      EN work/ADD4_MXILINX_initRandom 1480978713 CP MUXCY_L CP MUXCY CP MUXCY_D \
+      CP XORCY CP FMAP CP XOR2
+EN work/FTCE_MXILINX_initRandom 1480978715 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_initRandom/BEHAVIORAL 1480978716 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      EN work/FTCE_MXILINX_initRandom 1480978715 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_initRandom 1480978717 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_initRandom/BEHAVIORAL 1480978718 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      EN work/CB4CE_MXILINX_initRandom 1480978717 CP FTCE_MXILINX_initRandom \
+      CP AND4 CP AND3 CP AND2 CP VCC
+EN work/initRandom 1480978719 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/initRandom/BEHAVIORAL 1480978720 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/initRandom.vhf EN work/initRandom 1480978719 \
+      CP CB4CE_MXILINX_initRandom CP VCC CP AND3 CP ADD4_MXILINX_initRandom
+FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf 2016/12/06.05:57:07 P.20131013
+EN work/ADD4_MXILINX_Main 1480978655 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_Main/BEHAVIORAL 1480978656 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf EN work/ADD4_MXILINX_Main 1480978655 \
+      CP MUXCY_L CP MUXCY CP MUXCY_D CP XORCY CP FMAP CP XOR2
+EN work/M2_1_MXILINX_Main 1480978657 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_Main/BEHAVIORAL 1480978658 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf EN work/M2_1_MXILINX_Main 1480978657 \
+      CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_Main 1480978659 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_Main/BEHAVIORAL 1480978660 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/FTCLEX_MXILINX_Main 1480978659 CP M2_1_MXILINX_Main CP XOR2 CP FDCE
+EN work/CB4CLE_MXILINX_Main 1480978661 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLE_MXILINX_Main/BEHAVIORAL 1480978662 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/CB4CLE_MXILINX_Main 1480978661 CP FTCLEX_MXILINX_Main CP VCC CP AND4 \
+      CP AND2 CP AND3 CP OR2
+EN work/FTCE_MXILINX_Main 1480978663 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_Main/BEHAVIORAL 1480978664 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf EN work/FTCE_MXILINX_Main 1480978663 \
+      CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_Main 1480978665 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_Main/BEHAVIORAL 1480978666 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/CB4CE_MXILINX_Main 1480978665 CP FTCE_MXILINX_Main CP AND4 CP AND3 \
+      CP AND2 CP VCC
+EN work/D2_4E_MXILINX_Main 1480978667 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_Main/BEHAVIORAL 1480978668 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/D2_4E_MXILINX_Main 1480978667 CP AND3 CP AND3B1 CP AND3B2
+EN work/CB2CE_MXILINX_Main 1480978669 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_Main/BEHAVIORAL 1480978670 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/CB2CE_MXILINX_Main 1480978669 CP FTCE_MXILINX_Main CP AND2 CP VCC
+EN work/M2_1E_MXILINX_Main 1480978671 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_Main/BEHAVIORAL 1480978672 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/M2_1E_MXILINX_Main 1480978671 CP AND3 CP AND3B1 CP OR2
+EN work/M4_1E_MXILINX_Main 1480978673 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M4_1E_MXILINX_Main/BEHAVIORAL 1480978674 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/M4_1E_MXILINX_Main 1480978673 CP M2_1E_MXILINX_Main CP MUXF5
+EN work/score_MUSER_Main 1480978675 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/score_MUSER_Main/BEHAVIORAL 1480978676 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf EN work/score_MUSER_Main 1480978675 \
+      CP CB4CE_MXILINX_Main CP VCC CP M4_1E_MXILINX_Main CP CB2CE_MXILINX_Main \
+      CP BCD_7SEG CP D2_4E_MXILINX_Main CP AND2 CP OR3 CP CB4CLE_MXILINX_Main CP OR2 \
+      CP ADD4_MXILINX_Main CP INV
+EN work/debounce_MUSER_Main 1480978677 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/debounce_MUSER_Main/BEHAVIORAL 1480978678 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/debounce_MUSER_Main 1480978677 CP FD CP AND3B1
+EN work/COMPM8_MXILINX_Main 1480978679 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/COMPM8_MXILINX_Main/BEHAVIORAL 1480978680 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/COMPM8_MXILINX_Main 1480978679 CP AND2B1 CP OR4 CP NOR2 CP AND3 CP OR2 \
+      CP AND3B1 CP XNOR2 CP AND2 CP AND4
+EN work/mod3cnt_MUSER_Main 1480978681 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/mod3cnt_MUSER_Main/BEHAVIORAL 1480978682 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/mod3cnt_MUSER_Main 1480978681 CP CB2CE_MXILINX_Main \
+      CP D2_4E_MXILINX_Main CP AND2 CP OR2 CP INV CP FD CP VCC
+EN work/turnCount_MUSER_Main 1480978683 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/turnCount_MUSER_Main/BEHAVIORAL 1480978684 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/turnCount_MUSER_Main 1480978683 CP CB2CE_MXILINX_Main \
+      CP D2_4E_MXILINX_Main CP VCC CP AND2 CP OR2
+EN work/CardTo7_MUSER_Main 1480978685 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CardTo7_MUSER_Main/BEHAVIORAL 1480978686 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/CardTo7_MUSER_Main 1480978685 CP AND2 CP INV CP AND3 CP AND4 CP NOR4 \
+      CP NOR3 CP NOR5 CP NAND3
+EN work/D3_8E_MXILINX_Main 1480978687 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D3_8E_MXILINX_Main/BEHAVIORAL 1480978688 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/D3_8E_MXILINX_Main 1480978687 CP AND4 CP AND4B1 CP AND4B2 CP AND4B3
+EN work/sevensegDriver_MUSER_Main 1480978689 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sevensegDriver_MUSER_Main/BEHAVIORAL 1480978690 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/sevensegDriver_MUSER_Main 1480978689 CP CB4CE_MXILINX_Main CP VCC \
+      CP AND2 CP CB2CE_MXILINX_Main CP INV CP AND3 CP D3_8E_MXILINX_Main
+EN work/COMPM4_MXILINX_Main 1480978691 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/COMPM4_MXILINX_Main/BEHAVIORAL 1480978692 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/COMPM4_MXILINX_Main 1480978691 CP AND2 CP NOR2 CP AND2B1 CP OR2 \
+      CP XNOR2 CP AND3B1
+EN work/ADSU4_MXILINX_Main 1480978693 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU4_MXILINX_Main/BEHAVIORAL 1480978694 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/ADSU4_MXILINX_Main 1480978693 CP XOR3 CP MUXCY_L CP MUXCY CP MUXCY_D \
+      CP XORCY CP INV CP FMAP CP XOR2
+EN work/mod10_MUSER_Main 1480978695 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/mod10_MUSER_Main/BEHAVIORAL 1480978696 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf EN work/mod10_MUSER_Main 1480978695 \
+      CP COMPM4_MXILINX_Main CP VCC CP GND CP ADSU4_MXILINX_Main \
+      CP M2_1_MXILINX_Main
+EN work/SR4CLE_MXILINX_Main 1480978697 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/SR4CLE_MXILINX_Main/BEHAVIORAL 1480978698 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/SR4CLE_MXILINX_Main 1480978697 CP M2_1_MXILINX_Main CP FDCE CP OR2
+EN work/M8_1E_MXILINX_Main 1480978699 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M8_1E_MXILINX_Main/BEHAVIORAL 1480978700 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/M8_1E_MXILINX_Main 1480978699 CP M2_1E_MXILINX_Main CP MUXF5_L \
+      CP MUXF6
+EN work/playerCard_MUSER_Main 1480978701 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/playerCard_MUSER_Main/BEHAVIORAL 1480978702 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/playerCard_MUSER_Main 1480978701 CP SR4CLE_MXILINX_Main \
+      CP M8_1E_MXILINX_Main CP VCC CP ADD4_MXILINX_Main CP COMPM8_MXILINX_Main \
+      CP mod10_MUSER_Main CP AND4B3 CP OR5 CP COMPM4_MXILINX_Main \
+      CP M2_1_MXILINX_Main CP AND3B1 CP GND
+EN work/initRandom_MUSER_Main 1480978703 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/initRandom_MUSER_Main/BEHAVIORAL 1480978704 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/initRandom_MUSER_Main 1480978703 CP CB4CE_MXILINX_Main CP VCC CP AND3 \
+      CP ADD4_MXILINX_Main
+EN work/oneto13cnt_MUSER_Main 1480978705 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/oneto13cnt_MUSER_Main/BEHAVIORAL 1480978706 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf \
+      EN work/oneto13cnt_MUSER_Main 1480978705 CP CB4CE_MXILINX_Main CP VCC CP AND3 \
+      CP ADD4_MXILINX_Main
+EN work/Main 1480978707 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Main/BEHAVIORAL 1480978708 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/Main.vhf EN work/Main 1480978707 \
+      CP CardTo7_MUSER_Main CP oneto13cnt_MUSER_Main CP frequenzy \
+      CP playerCard_MUSER_Main CP initRandom_MUSER_Main \
+      CP sevensegDriver_MUSER_Main CP M4_1E_MXILINX_Main CP VCC \
+      CP turnCount_MUSER_Main CP mod3cnt_MUSER_Main CP AND2 CP INV CP FDCE CP AND2B1 \
+      CP OR3 CP debounce_MUSER_Main CP AND3 CP AND5 CP COMPM8_MXILINX_Main \
+      CP score_MUSER_Main CP OR2 CP AND3B1 CP NAND2
+FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf 2016/12/05.09:13:06 P.20131013
+EN work/M2_1_MXILINX_mod10 1480978797 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_mod10/BEHAVIORAL 1480978798 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf \
+      EN work/M2_1_MXILINX_mod10 1480978797 CP AND2B1 CP OR2 CP AND2
+EN work/ADSU4_MXILINX_mod10 1480978799 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU4_MXILINX_mod10/BEHAVIORAL 1480978800 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf \
+      EN work/ADSU4_MXILINX_mod10 1480978799 CP XOR3 CP MUXCY_L CP MUXCY CP MUXCY_D \
+      CP XORCY CP INV CP FMAP CP XOR2
+EN work/COMPM4_MXILINX_mod10 1480978801 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/COMPM4_MXILINX_mod10/BEHAVIORAL 1480978802 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf \
+      EN work/COMPM4_MXILINX_mod10 1480978801 CP AND2 CP NOR2 CP AND2B1 CP OR2 \
+      CP XNOR2 CP AND3B1
+EN work/mod10 1480978803 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/mod10/BEHAVIORAL 1480978804 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod10.vhf EN work/mod10 1480978803 \
+      CP COMPM4_MXILINX_mod10 CP VCC CP GND CP ADSU4_MXILINX_mod10 \
+      CP M2_1_MXILINX_mod10
+FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf 2016/12/05.01:09:37 P.20131013
+EN work/FTCE_MXILINX_mod3cnt 1480978721 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_mod3cnt/BEHAVIORAL 1480978722 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf \
+      EN work/FTCE_MXILINX_mod3cnt 1480978721 CP XOR2 CP FDCE
+EN work/CB2CE_MXILINX_mod3cnt 1480978723 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_mod3cnt/BEHAVIORAL 1480978724 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf \
+      EN work/CB2CE_MXILINX_mod3cnt 1480978723 CP FTCE_MXILINX_mod3cnt CP AND2 \
+      CP VCC
+EN work/D2_4E_MXILINX_mod3cnt 1480978725 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_mod3cnt/BEHAVIORAL 1480978726 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf \
+      EN work/D2_4E_MXILINX_mod3cnt 1480978725 CP AND3 CP AND3B1 CP AND3B2
+EN work/mod3cnt 1480978727 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/mod3cnt/BEHAVIORAL 1480978728 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod3cnt.vhf EN work/mod3cnt 1480978727 \
+      CP CB2CE_MXILINX_mod3cnt CP D2_4E_MXILINX_mod3cnt CP AND2 CP OR2 CP INV CP FD \
+      CP VCC
+FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf 2016/12/04.07:25:00 P.20131013
+AR work/M2_1_MXILINX_mod5cnt/BEHAVIORAL 1480810932 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf \
+      EN work/M2_1_MXILINX_mod5cnt 1480810931 CP AND2B1 CP OR2 CP AND2
+EN work/D3_8E_MXILINX_mod5cnt 1480811162 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D3_8E_MXILINX_mod5cnt/BEHAVIORAL 1480811163 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf \
+      EN work/D3_8E_MXILINX_mod5cnt 1480811162 CP AND4 CP AND4B1 CP AND4B2 CP AND4B3
+EN work/FTCE_MXILINX_mod5cnt 1480811164 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_mod5cnt/BEHAVIORAL 1480811165 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf \
+      EN work/FTCE_MXILINX_mod5cnt 1480811164 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_mod5cnt 1480811166 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_mod5cnt/BEHAVIORAL 1480811167 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf \
+      EN work/CB4CE_MXILINX_mod5cnt 1480811166 CP FTCE_MXILINX_mod5cnt CP AND4 \
+      CP AND3 CP AND2 CP VCC
+EN work/mod5cnt 1480811168 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/mod5cnt/BEHAVIORAL 1480811169 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/mod5cnt.vhf EN work/mod5cnt 1480811168 \
+      CP CB4CE_MXILINX_mod5cnt CP VCC CP AND2 CP D3_8E_MXILINX_mod5cnt
+FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf 2016/12/04.03:30:59 P.20131013
+EN work/ADD4_MXILINX_oneto13cnt 1480978729 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_oneto13cnt/BEHAVIORAL 1480978730 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      EN work/ADD4_MXILINX_oneto13cnt 1480978729 CP MUXCY_L CP MUXCY CP MUXCY_D \
+      CP XORCY CP FMAP CP XOR2
+EN work/FTCE_MXILINX_oneto13cnt 1480978731 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_oneto13cnt/BEHAVIORAL 1480978732 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      EN work/FTCE_MXILINX_oneto13cnt 1480978731 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_oneto13cnt 1480978733 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_oneto13cnt/BEHAVIORAL 1480978734 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      EN work/CB4CE_MXILINX_oneto13cnt 1480978733 CP FTCE_MXILINX_oneto13cnt \
+      CP AND4 CP AND3 CP AND2 CP VCC
+EN work/oneto13cnt 1480978735 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/oneto13cnt/BEHAVIORAL 1480978736 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/oneto13cnt.vhf EN work/oneto13cnt 1480978735 \
+      CP CB4CE_MXILINX_oneto13cnt CP VCC CP AND3 CP ADD4_MXILINX_oneto13cnt
+FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf 2016/12/06.05:56:50 P.20131013
+EN work/M2_1_MXILINX_playerCard 1480978737 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_playerCard/BEHAVIORAL 1480978738 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/M2_1_MXILINX_playerCard 1480978737 CP AND2B1 CP OR2 CP AND2
+EN work/COMPM4_MXILINX_playerCard 1480978739 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/COMPM4_MXILINX_playerCard/BEHAVIORAL 1480978740 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/COMPM4_MXILINX_playerCard 1480978739 CP AND2 CP NOR2 CP AND2B1 CP OR2 \
+      CP XNOR2 CP AND3B1
+EN work/ADD4_MXILINX_playerCard 1480978741 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_playerCard/BEHAVIORAL 1480978742 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/ADD4_MXILINX_playerCard 1480978741 CP MUXCY_L CP MUXCY CP MUXCY_D \
+      CP XORCY CP FMAP CP XOR2
+EN work/ADSU4_MXILINX_playerCard 1480978743 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU4_MXILINX_playerCard/BEHAVIORAL 1480978744 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/ADSU4_MXILINX_playerCard 1480978743 CP XOR3 CP MUXCY_L CP MUXCY \
+      CP MUXCY_D CP XORCY CP INV CP FMAP CP XOR2
+EN work/mod10_MUSER_playerCard 1480978745 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/mod10_MUSER_playerCard/BEHAVIORAL 1480978746 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/mod10_MUSER_playerCard 1480978745 CP COMPM4_MXILINX_playerCard \
+      CP VCC CP GND CP ADSU4_MXILINX_playerCard CP M2_1_MXILINX_playerCard
+EN work/COMPM8_MXILINX_playerCard 1480978747 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/COMPM8_MXILINX_playerCard/BEHAVIORAL 1480978748 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/COMPM8_MXILINX_playerCard 1480978747 CP AND2B1 CP OR4 CP NOR2 CP AND3 \
+      CP OR2 CP AND3B1 CP XNOR2 CP AND2 CP AND4
+EN work/SR4CLE_MXILINX_playerCard 1480978749 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SR4CLE_MXILINX_playerCard/BEHAVIORAL 1480978750 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/SR4CLE_MXILINX_playerCard 1480978749 CP M2_1_MXILINX_playerCard \
+      CP FDCE CP OR2
+EN work/M2_1E_MXILINX_playerCard 1480978751 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_playerCard/BEHAVIORAL 1480978752 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/M2_1E_MXILINX_playerCard 1480978751 CP AND3 CP AND3B1 CP OR2
+EN work/M8_1E_MXILINX_playerCard 1480978753 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M8_1E_MXILINX_playerCard/BEHAVIORAL 1480978754 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      EN work/M8_1E_MXILINX_playerCard 1480978753 CP M2_1E_MXILINX_playerCard \
+      CP MUXF5_L CP MUXF6
+EN work/playerCard 1480978755 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/playerCard/BEHAVIORAL 1480978756 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/playerCard.vhf EN work/playerCard 1480978755 \
+      CP SR4CLE_MXILINX_playerCard CP M8_1E_MXILINX_playerCard CP VCC \
+      CP ADD4_MXILINX_playerCard CP COMPM8_MXILINX_playerCard \
+      CP mod10_MUSER_playerCard CP AND4B3 CP OR5 CP COMPM4_MXILINX_playerCard \
+      CP M2_1_MXILINX_playerCard CP AND3B1 CP GND
+FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf 2016/12/06.02:17:19 P.20131013
+EN work/ADD4_MXILINX_score 1480978757 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ADD4_MXILINX_score/BEHAVIORAL 1480978758 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/ADD4_MXILINX_score 1480978757 CP MUXCY_L CP MUXCY CP MUXCY_D CP XORCY \
+      CP FMAP CP XOR2
+EN work/M2_1_MXILINX_score 1480978759 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_score/BEHAVIORAL 1480978760 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/M2_1_MXILINX_score 1480978759 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_score 1480978761 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_score/BEHAVIORAL 1480978762 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/FTCLEX_MXILINX_score 1480978761 CP M2_1_MXILINX_score CP XOR2 CP FDCE
+EN work/CB4CLE_MXILINX_score 1480978763 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLE_MXILINX_score/BEHAVIORAL 1480978764 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/CB4CLE_MXILINX_score 1480978763 CP FTCLEX_MXILINX_score CP VCC \
+      CP AND4 CP AND2 CP AND3 CP OR2
+EN work/FTCE_MXILINX_score 1480978765 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_score/BEHAVIORAL 1480978766 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/FTCE_MXILINX_score 1480978765 CP XOR2 CP FDCE
+EN work/CB4CE_MXILINX_score 1480978767 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_score/BEHAVIORAL 1480978768 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/CB4CE_MXILINX_score 1480978767 CP FTCE_MXILINX_score CP AND4 CP AND3 \
+      CP AND2 CP VCC
+EN work/D2_4E_MXILINX_score 1480978769 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_score/BEHAVIORAL 1480978770 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/D2_4E_MXILINX_score 1480978769 CP AND3 CP AND3B1 CP AND3B2
+EN work/CB2CE_MXILINX_score 1480978771 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_score/BEHAVIORAL 1480978772 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/CB2CE_MXILINX_score 1480978771 CP FTCE_MXILINX_score CP AND2 CP VCC
+EN work/M2_1E_MXILINX_score 1480978773 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1E_MXILINX_score/BEHAVIORAL 1480978774 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/M2_1E_MXILINX_score 1480978773 CP AND3 CP AND3B1 CP OR2
+EN work/M4_1E_MXILINX_score 1480978775 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/M4_1E_MXILINX_score/BEHAVIORAL 1480978776 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf \
+      EN work/M4_1E_MXILINX_score 1480978775 CP M2_1E_MXILINX_score CP MUXF5
+EN work/score 1480978777 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/score/BEHAVIORAL 1480978778 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/score.vhf EN work/score 1480978777 \
+      CP CB4CE_MXILINX_score CP VCC CP M4_1E_MXILINX_score CP CB2CE_MXILINX_score \
+      CP BCD_7SEG CP D2_4E_MXILINX_score CP AND2 CP OR3 CP CB4CLE_MXILINX_score \
+      CP OR2 CP ADD4_MXILINX_score CP INV
+FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf 2016/12/04.21:26:43 P.20131013
+EN work/D3_8E_MXILINX_sevensegDriver 1480978779 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D3_8E_MXILINX_sevensegDriver/BEHAVIORAL 1480978780 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      EN work/D3_8E_MXILINX_sevensegDriver 1480978779 CP AND4 CP AND4B1 CP AND4B2 \
+      CP AND4B3
+EN work/FTCE_MXILINX_sevensegDriver 1480978781 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_sevensegDriver/BEHAVIORAL 1480978782 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      EN work/FTCE_MXILINX_sevensegDriver 1480978781 CP XOR2 CP FDCE
+EN work/CB2CE_MXILINX_sevensegDriver 1480978783 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_sevensegDriver/BEHAVIORAL 1480978784 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      EN work/CB2CE_MXILINX_sevensegDriver 1480978783 \
+      CP FTCE_MXILINX_sevensegDriver CP AND2 CP VCC
+EN work/CB4CE_MXILINX_sevensegDriver 1480978785 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CE_MXILINX_sevensegDriver/BEHAVIORAL 1480978786 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      EN work/CB4CE_MXILINX_sevensegDriver 1480978785 \
+      CP FTCE_MXILINX_sevensegDriver CP AND4 CP AND3 CP AND2 CP VCC
+EN work/sevensegDriver 1480978787 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sevensegDriver/BEHAVIORAL 1480978788 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/sevensegDriver.vhf \
+      EN work/sevensegDriver 1480978787 CP CB4CE_MXILINX_sevensegDriver CP VCC \
+      CP AND2 CP CB2CE_MXILINX_sevensegDriver CP INV CP AND3 \
+      CP D3_8E_MXILINX_sevensegDriver
+FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf 2016/12/06.02:07:57 P.20131013
+EN work/D2_4E_MXILINX_turnCount 1480978789 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_turnCount/BEHAVIORAL 1480978790 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      EN work/D2_4E_MXILINX_turnCount 1480978789 CP AND3 CP AND3B1 CP AND3B2
+EN work/FTCE_MXILINX_turnCount 1480978791 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_turnCount/BEHAVIORAL 1480978792 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      EN work/FTCE_MXILINX_turnCount 1480978791 CP XOR2 CP FDCE
+EN work/CB2CE_MXILINX_turnCount 1480978793 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_turnCount/BEHAVIORAL 1480978794 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      EN work/CB2CE_MXILINX_turnCount 1480978793 CP FTCE_MXILINX_turnCount CP AND2 \
+      CP VCC
+EN work/turnCount 1480978795 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/turnCount/BEHAVIORAL 1480978796 \
+      FL C:/Users/Earth/Documents/ei/Blackjack/turnCount.vhf EN work/turnCount 1480978795 \
+      CP CB2CE_MXILINX_turnCount CP D2_4E_MXILINX_turnCount CP VCC CP AND2 CP OR2

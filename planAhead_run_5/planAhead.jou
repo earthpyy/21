@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Dec 04 06:57:27 2016
+# Process ID: 8620
+# Log file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/Earth/Documents/ei/Blackjack/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Earth/Documents/ei/Blackjack/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list XLXN_565]]
+set_property iostandard LVCMOS33 [get_ports [list XLXN_566]]
+set_property iostandard LVCMOS33 [get_ports [list XLXN_567]]
+set_property iostandard LVCMOS33 [get_ports [list XLXN_568]]
+set_property iostandard LVCMOS33 [get_ports [list XLXN_569]]
+save_constraints
+set_property iostandard LVDCI_33 [get_ports [list XLXN_565]]
+set_property iostandard LVDCI_33 [get_ports [list XLXN_566]]
+set_property iostandard LVDCI_33 [get_ports [list XLXN_567]]
+set_property iostandard LVDCI_33 [get_ports [list XLXN_568]]
+set_property iostandard LVDCI_33 [get_ports [list XLXN_569]]
+save_constraints
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+set_property iostandard LVDCI_33 [get_ports [list XLXN_565]]
+set_property iostandard LVCMOS25 [get_ports [list XLXN_566]]
+set_property iostandard LVTTL [get_ports [list XLXN_565]]
+save_constraints
+set_property iostandard LVCMOS25 [get_ports [list XLXN_13]]
+save_constraints
+undo
+undo
+undo
+undo
+refresh_design
+set_property iostandard LVCMOS25 [get_ports [list XLXN_565]]
+save_constraints
+update_compile_order -fileset sources_1
